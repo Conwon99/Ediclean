@@ -1,0 +1,35 @@
+---
+import { locations } from "../data/locations";
+import type { Service } from "../data/services";
+
+type Props = {
+  service: Service;
+};
+
+const { service } = Astro.props;
+---
+
+<section class="bg-white box-border pb-[60px] md:pb-[100px]">
+  <div class="box-border max-w-[1204px] mx-auto px-5 md:px-8">
+    <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-6 md:p-8">
+      <h2 class="text-2xl font-bold tracking-tight text-black font-heading uppercase mb-4">
+        {service.title} service areas
+      </h2>
+      <p class="text-[15px] text-neutral-700 leading-6 md:text-base max-w-[760px] mb-6">
+        We provide {service.title.toLowerCase()} across Edinburgh and the Lothians. Choose your area for local service details.
+      </p>
+      <ul class="grid grid-cols-1 gap-x-6 gap-y-2 pl-0 list-none sm:grid-cols-2 lg:grid-cols-3">
+        {locations.map((location) => (
+          <li>
+            <a
+              href={`/${location.slug}/${service.slug}/`}
+              class="text-[15px] leading-6 text-neutral-700 hover:text-neutral-900 hover:underline md:text-base"
+            >
+              {service.title} in {location.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,379 @@
+You are a senior web developer and local SEO expert. Your task: create the About Us and Contact pages. The About page establishes E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) with Google. The Contact page provides clear ways to reach the business.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+PART 1: ABOUT PAGE
+
+=======================================================
+
+PAGE URL: /about
+
+PURPOSE:
+
+The About page establishes credibility with both Google and users. It proves real people run this business. This is critical for E-E-A-T signals.
+
+1. SEO Meta Elements
+
+- Title tag: "About [BUSINESS NAME] | [City] [State Abbrev] [PRIMARY CATEGORY]"
+
+- Meta description: "Meet the team at [BUSINESS NAME]. Locally owned [INDUSTRY] serving [CITY] and surrounding areas. Licensed, insured, and committed to quality service."
+
+- H1: "About [BUSINESS NAME] — Your Local [City] [PRIMARY CATEGORY]"
+
+2. Hero Section
+
+- Clean hero (solid color or subtle image acceptable)
+
+- H1 displayed prominently
+
+- Subheadline: "Locally owned. Professionally trained. Here when you need us."
+
+- Phone number and "Call Now" button
+
+3. Content Sections
+
+SECTION: Our Story
+
+- Placeholder heading: "How [BUSINESS NAME] Got Started"
+
+- Placeholder text: <!-- Replace with authentic business story: How did you get into this industry? Why did you start this business? What's your connection to [CITY]? Be genuine and specific. -->
+
+- This section should be 150-200 words when filled in
+
+- Include space for 1-2 images
+
+SECTION: Meet the Owner / Meet the Team
+
+- Placeholder heading: "Meet [Owner Name]" or "Meet Our Team"
+
+- Author bio box format:
+
+- Placeholder for professional headshot
+
+- Name and title
+
+- Credentials and licenses held
+
+- Years of experience
+
+- Brief professional background (3-4 sentences)
+
+- Placeholder text: <!-- Replace with real owner/team information. Include verifiable credentials, licenses, and experience. Use a real photo — not stock. -->
+
+- If multiple team members, create space for 2-3 bio boxes
+
+SECTION: Video Introduction (Optional but Recommended)
+
+- Placeholder: <!-- Embed owner introduction video here. A brief video builds trust and proves you're a real person. Even a simple 60-second introduction helps. -->
+
+- Text: "Watch [Owner Name] introduce [BUSINESS NAME]"
+
+SECTION: Our Service Area
+
+- Heading: "Proudly Serving [CITY] and Surrounding Areas"
+
+- List all SERVICE AREAS from architecture
+
+- Brief paragraph about response times and coverage
+
+SECTION: Credentials & Trust
+
+- Heading: "Licensed, Insured, and Guaranteed"
+
+- Display TRUST SIGNALS from architecture with icons
+
+- Placeholders for:
+
+- License numbers: <!-- Add your license number(s) -->
+
+- Insurance information: <!-- Add insurance details -->
+
+- Certifications: <!-- Add industry certifications -->
+
+- Years in business: <!-- Add years -->
+
+SECTION: Google Business Profile
+
+- Heading: "Find Us on Google"
+
+- Placeholder: <!-- Paste Google Business Profile embed code here. For local businesses, link GBP to homepage. For service-area businesses, linking to About page is acceptable. -->
+
+SECTION: Connect With Us
+
+- Heading: "Follow Us"
+
+- Social media icon links (placeholders):
+
+- Facebook: <!-- Add Facebook URL -->
+
+- Google Business Profile: <!-- Add GBP URL -->
+
+- LinkedIn: <!-- Add LinkedIn URL if applicable -->
+
+- Instagram: <!-- Add Instagram URL if applicable -->
+
+- Note: <!-- Only link to social profiles you actively maintain. Inactive profiles hurt more than help. -->
+
+4. Schema Markup
+
+Add LocalBusiness schema (if not already on homepage) or Organization schema:
+
+- @type: LocalBusiness or Organization
+
+- name: [BUSINESS NAME]
+
+- address: [CITY], [STATE] [ZIP CODE]
+
+- telephone: [PHONE NUMBER]
+
+- email: [EMAIL]
+
+- areaServed: [SERVICE AREAS]
+
+- founder or employee: (placeholder for owner info)
+
+5. Design Requirements
+
+- Professional, trustworthy appearance
+
+- Space for real photos (not stock)
+
+- Clean typography
+
+- Mobile responsive
+
+6. Page Section Order
+
+1. Hero (H1, subheadline, phone)
+
+2. Our Story
+
+3. Meet the Owner/Team
+
+4. Video Introduction placeholder
+
+5. Service Area
+
+6. Credentials & Trust
+
+7. Google Business Profile embed
+
+8. Social Media links
+
+9. Footer
+
+=======================================================
+
+PART 2: CONTACT PAGE
+
+=======================================================
+
+PAGE URL: /contact
+
+PURPOSE:
+
+Make it easy for customers to reach you. Provide multiple contact methods. Reinforce trust.
+
+1. SEO Meta Elements
+
+- Title tag: "Contact [BUSINESS NAME] | [City] [State Abbrev] [PRIMARY CATEGORY]"
+
+- Meta description: "Contact [BUSINESS NAME] for [INDUSTRY] service in [CITY]. Call [PHONE NUMBER] for same-day service. Licensed and insured."
+
+- H1: "Contact [BUSINESS NAME]"
+
+2. Hero Section
+
+- Clean hero
+
+- H1 displayed prominently
+
+- Subheadline: "Ready to help. Call now or send us a message."
+
+- Large phone number (click-to-call)
+
+- Trust signals below
+
+3. Content Layout (Two Column on Desktop)
+
+LEFT COLUMN: Contact Information
+
+Phone Section:
+
+- Heading: "Call Us"
+
+- [PHONE NUMBER] — large, click-to-call
+
+- "Available 24/7 for emergencies" (or appropriate hours)
+
+Email Section:
+
+- Heading: "Email Us"
+
+- [EMAIL] — clickable mailto link
+
+- "We respond within 24 hours"
+
+Address Section:
+
+- Heading: "Our Location"
+
+- [CITY], [STATE] [ZIP CODE]
+
+- Note: <!-- If you have a physical office customers visit, include full address. If service-area business with no public office, city/state is sufficient. -->
+
+Hours Section:
+
+- Heading: "Hours"
+
+- Placeholder:
+
+<!-- Add your business hours:
+
+Monday - Friday:
+
+Saturday:
+
+Sunday:
+
+Emergency service: -->
+
+RIGHT COLUMN: Contact Form
+
+Form Fields:
+
+- Name (required)
+
+- Phone (required)
+
+- Email (required)
+
+- Service Needed (dropdown with options from SERVICE HIERARCHY — Secondary Categories, Core Services, and "Other/Not Sure")
+
+- Message (textarea)
+
+- Submit button: "Request Service" or "Send Message"
+
+Form Note:
+
+- "Prefer to talk? Call us at [PHONE NUMBER] for immediate assistance."
+
+4. Service Area Section
+
+- Heading: "Areas We Serve"
+
+- List all SERVICE AREAS from architecture
+
+- Brief note: "Not sure if we serve your area? Call us — we'll let you know."
+
+5. Map Section
+
+- Heading: "Find Us"
+
+- Google Maps embed placeholder: <!-- Paste Google Maps embed code here -->
+
+- If service-area business, can show general coverage area or city center
+
+6. Trust Reinforcement
+
+- Small section with TRUST SIGNALS from architecture
+
+- "Licensed & Insured • Same-Day Service • Satisfaction Guaranteed"
+
+7. Schema Markup
+
+ContactPage schema or LocalBusiness with contact details:
+
+- @type: ContactPage
+
+- mainEntity: reference to LocalBusiness
+
+- Include telephone, email, address
+
+8. Design Requirements
+
+- Phone number very prominent
+
+- Form easy to use on mobile
+
+- Clean, uncluttered layout
+
+- Fast loading
+
+9. Page Section Order
+
+1. Hero (H1, subheadline, phone, trust signals)
+
+2. Two-column layout (Contact Info | Form)
+
+3. Service Areas
+
+4. Map embed
+
+5. Trust reinforcement
+
+6. Footer
+
+=======================================================
+
+FORM FUNCTIONALITY
+
+=======================================================
+
+Contact form should:
+
+- Validate required fields before submission
+
+- Show success message after submission
+
+- Placeholder for form submission handling: <!-- Connect to your form handler: Formspree, Netlify Forms, or your CRM -->
+
+=======================================================
+
+SCROLL BEHAVIOR
+
+=======================================================
+
+All internal links load destination pages at TOP.
+
+=======================================================
+
+VERIFICATION
+
+=======================================================
+
+After creating both pages, confirm:
+
+About Page:
+
+- All placeholder sections present
+
+- Space for owner/team photos
+
+- Social media links section
+
+- GBP embed placeholder
+
+- Schema markup in place
+
+Contact Page:
+
+- Phone number prominent and click-to-call
+
+- Contact form functional
+
+- Service dropdown includes services from architecture
+
+- Map embed placeholder
+
+- All contact methods displayed
+
+Generate the About and Contact pages as specified.

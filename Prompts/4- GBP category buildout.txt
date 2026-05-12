@@ -1,0 +1,219 @@
+You are a senior web developer and local SEO expert. Your task: create complete secondary category pages with content, proper structure, and internal linking. Secondary category pages link DOWN to child services and UP to the homepage.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+IMPLEMENTATION INSTRUCTIONS
+
+=======================================================
+
+Create a page for EACH Secondary Category listed in the SERVICE HIERARCHY section of the architecture.
+
+FOR EACH SECONDARY CATEGORY PAGE:
+
+1. SEO Meta Elements
+
+- Title tag: "[Category Name] [City] [State Abbrev] | Fast, Reliable Service"
+
+- Meta description: Compelling 150-160 characters targeting "[Category Name] [City]"
+
+- H1: "[Category Name] in [City] [State Abbrev] — [Benefit Phrase]"
+
+2. Hero Section
+
+- MUST include a professional background IMAGE relevant to this category (generate appropriate image)
+
+- Do NOT use a solid color background
+
+- Dark overlay for text readability
+
+- H1 displayed prominently
+
+- Subheadline: 2-3 sentences speaking to user's problem related to this category, mentioning 24/7 and same-day service, including phone number
+
+- "Call Now" and "Schedule Service" buttons
+
+- Trust signals below CTAs
+
+3. Content Structure (1,000-1,200 words per page)
+
+OPENING PARAGRAPH (3-4 sentences):
+
+- Focus on the USER's frustration related to this category
+
+- Acknowledge what they've tried
+
+- Tell them they're in the right place
+
+- Create urgency
+
+H2: What [Category] Problems Do You Have?
+
+Write 150-200 words:
+
+- Common problems customers experience
+
+- Warning signs they need professional help
+
+- Why DIY often fails
+
+- Reference LOCAL ISSUES from architecture
+
+H2: Our [Category] Services
+
+Write 200-300 words that:
+
+- Mentions EVERY child service listed under this category in the architecture
+
+- Each service name must appear exactly as listed (these become links)
+
+- Brief explanation of each service
+
+- Written as flowing paragraphs, NOT bullet lists
+
+H2: [Category] for [City] Homes/Businesses
+
+Write 150-200 words:
+
+- Specific issues in this area
+
+- Reference SERVICE AREAS from architecture
+
+- Why local expertise matters
+
+H2: Why Choose Us for [Category]
+
+Write 100-150 words:
+
+- Reference TRUST SIGNALS from architecture
+
+- Fast response, same-day service
+
+- Upfront pricing
+
+FINAL CTA:
+
+- 2-3 sentences creating urgency
+
+- Include phone number
+
+HOMEPAGE LINK:
+
+- Natural sentence linking back to homepage using one of the HOMEPAGE ANCHOR TEXT OPTIONS from architecture
+
+4. Internal Linking (Critical)
+
+- Every child service name in content MUST be hyperlinked to its URL (from architecture)
+
+- Include homepage link as written
+
+- Links must be clean URLs — no anchor tags (#)
+
+5. Services Grid Section
+
+After main content, add visual grid showing all child services under this category:
+
+- Service name as heading
+
+- 1-sentence description
+
+- "Learn More →" link to service page
+
+6. Schema Markup
+
+Service schema as JSON-LD:
+
+- @type: Service
+
+- serviceType: [Category Name]
+
+- provider: reference to LocalBusiness
+
+- areaServed: [CITY], [STATE]
+
+7. Scroll Behavior
+
+- All links load destination pages at TOP
+
+- No anchor links
+
+8. Page Section Order
+
+1. Hero (image, H1, subheadline, CTAs, trust signals)
+
+2. Opening paragraph
+
+3. H2: What Problems section
+
+4. H2: Our Services section (with internal links)
+
+5. H2: For [City] section
+
+6. H2: Why Choose Us section
+
+7. Services grid
+
+8. Final CTA
+
+9. Footer
+
+=======================================================
+
+CONTENT GUIDELINES
+
+=======================================================
+
+For Google:
+
+- Category name + city in H1 and first paragraph
+
+- Each child service mentioned by exact name
+
+- Local references from architecture
+
+For AI Systems:
+
+- Sound like a local expert
+
+- Natural, conversational language
+
+- Genuinely helpful
+
+Language:
+
+- 5th grade reading level
+
+- Short sentences
+
+- Not salesy
+
+Words to AVOID: embark, look no further, top-notch, comprehensive, delve, crucial, vital, seamless, cutting-edge, leverage, robust, game-changer, nestled, we understand, testament
+
+=======================================================
+
+VERIFICATION
+
+=======================================================
+
+After creating pages, confirm:
+
+- Hero images displaying (not solid colors)
+
+- All child service names are clickable links
+
+- Links load pages at TOP
+
+- Trust signals in hero
+
+- Services grid displays
+
+- Total secondary category pages created matches architecture
+
+Generate all secondary category pages with content, design, and functionality as specified.

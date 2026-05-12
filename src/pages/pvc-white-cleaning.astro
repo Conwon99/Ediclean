@@ -10,14 +10,18 @@ import ReviewsSection from '../sections/ReviewsSection.astro';
 import { QuoteSection } from '../sections/QuoteSection';
 import { FooterSection } from '../sections/FooterSection';
 import { getServiceBySlug } from '../data/services';
-import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
+import { getServiceMetaDescription, getServiceTitle } from '../data/seo';
+import { getServicePageExtraJsonLd } from '../data/serviceStructuredData';
+import ServiceLocationLinks from '../components/ServiceLocationLinks.astro';
+import { ServicePageCostSection } from '../sections/ServicePageCostSection';
 
 const service = getServiceBySlug('pvc-white-cleaning')!;
 ---
 
 <Layout
-  title={`${service.title} - ${BUSINESS_NAME} | ${META_AREA_PHRASE}`}
-  description={service.shortDescription}
+  title={getServiceTitle(service)}
+  description={getServiceMetaDescription(service)}
+  extraJsonLd={getServicePageExtraJsonLd(service)}
 >
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />
@@ -60,7 +64,9 @@ const service = getServiceBySlug('pvc-white-cleaning')!;
       </section>
       <ExteriorWhyChooseSection client:load serviceSlug="pvc-white-cleaning" />
       <ExteriorProcessSection client:load serviceSlug="pvc-white-cleaning" />
+      <ServicePageCostSection client:load serviceTitle={service.title} />
       <ExteriorFAQSection client:load serviceSlug="pvc-white-cleaning" />
+      <ServiceLocationLinks service={service} />
       <ServiceAreasSection client:load />
       <ReviewsSection title="Reviews" />
       <QuoteSection client:load showTerms={false} />

@@ -1,0 +1,156 @@
+You are a senior web developer implementing a homepage for a local service business website. The content has already been written — your job is to implement it with proper structure, design, and technical SEO elements that MAXIMIZE CONVERSIONS.
+
+=======================================================
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+PRE-WRITTEN CONTENT — PASTE FROM PROMPT 2
+=======================================================
+
+[PASTE THE CONTENT FROM PROMPT 2 OUTPUT HERE]
+
+=======================================================
+CRITICAL: GOAL COMPLETION HIERARCHY
+=======================================================
+
+This page exists for ONE purpose: get the searcher to call or submit a form.
+
+The section order below is MANDATORY and based on what converts:
+- Social proof and credibility FIRST
+- Educational content LAST
+- Every section should answer: "Why should I choose THIS company?"
+
+=======================================================
+SECTION ORDER (FOLLOW EXACTLY)
+=======================================================
+
+1. HERO SECTION (Above the Fold)
+   - Professional hero background image (generate image of [INDUSTRY] professional at work)
+   - Dark overlay for text readability
+   - H1: Use pre-written H1 EXACTLY
+   - Subheadline: Use pre-written subheadline EXACTLY  
+   - Primary CTA: Large "Call Now [PHONE NUMBER]" button (click-to-call)
+   - Secondary CTA: "Get Free Estimate" button
+   - Trust signals strip below CTAs: Licensed & Insured | 24/7 Emergency | Same-Day Service | [Additional from architecture]
+
+2. WHY CHOOSE US (Immediately after hero)
+   - Section heading: "Why [CITY] Homeowners Call Us First"
+   - 4 icon boxes in a row, each with:
+     - Icon
+     - Bold differentiator headline (from pre-written content)
+     - 1-2 sentence explanation
+   - These must be SPECIFIC differentiators, not generic claims
+   - Examples of GOOD: "500+ 5-Star Reviews", "Average 45-Minute Response", "$0 Trip Charge Guarantee"
+   - Examples of BAD: "Quality Service", "Experienced Team", "Customer Satisfaction"
+
+3. GOOGLE REVIEWS EMBED
+   - Section heading: "See What Our Customers Say"
+   - Placeholder div for Google Reviews embed with HTML comment: <!-- PASTE GOOGLE REVIEWS EMBED CODE HERE -->
+   - Style the container to look clean and match site design
+   - This section provides IMMEDIATE social proof high on the page
+
+4. LEAD CAPTURE FORM
+   - Section heading: "Get Your Free Estimate"
+   - Simple form: Name, Phone, Email, Service Needed (dropdown), Message
+   - Service dropdown populated from SERVICES in architecture
+   - Form should be visually prominent with contrasting background
+   - Include trust reassurance: "No obligation. Response within 1 hour during business hours."
+
+5. SECONDARY CATEGORY CARDS
+   - Section heading: Use pre-written H2 for this section
+   - Card layout for each SECONDARY CATEGORY from architecture
+   - Each card: Image, category name, brief description, "Learn More" link to category page
+   - Cards link to defined SECONDARY CATEGORY PAGES
+
+6. CORE SERVICE HIGHLIGHTS  
+   - Section heading: Use pre-written H2 for this section
+   - Feature the CORE SERVICE PAGES from architecture
+   - Each with: Service name, 2-3 sentence description, "Learn More" link
+   - More prominent styling than secondary categories
+
+7. SERVICE AREA SECTION
+   - Section heading: "Proudly Serving [CITY] and [STATE/REGION]"
+   - Display SERVICE AREAS as linked text (if location pages exist) or plain text
+   - Brief paragraph about service coverage
+   - Keep this section compact — it's informational, not conversion-focused
+
+8. ABOUT/CREDENTIALS SECTION
+   - Section heading: "Your Local [INDUSTRY] Experts"  
+   - Use pre-written about content
+   - Include space for team photo or owner photo
+   - Display any certifications, licenses, associations
+
+9. FAQ SECTION
+   - Section heading: "Common Questions"
+   - Use pre-written FAQ content
+   - Accordion style for clean presentation
+   - Include LocalBusiness FAQ schema markup
+
+10. LOCATIONS WE SERVE (Compact, just above footer)
+    - Small section, minimal styling
+    - Heading: "Locations We Serve"
+    - Link to /locations/ hub page
+    - List SERVICE AREAS as text or links
+    - This is NOT a prominent section — just navigation/SEO value
+
+11. FINAL CTA SECTION
+    - Contrasting background color
+    - Heading: "Ready to Get Started?"
+    - Phone number prominent: [PHONE NUMBER]
+    - "Call Now" and "Schedule Online" buttons
+    - Hours of operation if available
+
+=======================================================
+TECHNICAL REQUIREMENTS
+=======================================================
+
+SEO Meta Elements:
+- Title: "[TARGET KEYWORD] | 24/7 Emergency Service | [BUSINESS NAME]"
+- Meta description: "[CITY]'s most trusted [PRIMARY CATEGORY]. [Key differentiator]. Call [PHONE] for same-day service."
+- H1: From pre-written content (use EXACTLY)
+
+Schema Markup:
+- LocalBusiness schema with all NAP data
+- Service schema for core services
+- FAQ schema for FAQ section
+
+Mobile Optimization:
+- Click-to-call on all phone numbers
+- Form fields appropriately sized for mobile
+- Sticky mobile CTA bar at bottom of screen
+
+Performance:
+- Lazy load images below the fold
+- Optimize hero image for fast loading
+
+=======================================================
+VERIFICATION CHECKLIST
+=======================================================
+
+Before completing, verify:
+□ Hero has professional background image with overlay
+□ "Why Choose Us" appears IMMEDIATELY after hero (not buried)
+□ Google Reviews embed placeholder is positioned BEFORE educational content
+□ Lead form is prominent and above the fold on desktop
+□ All phone numbers are click-to-call
+□ Secondary categories link to correct URLs from architecture
+□ Core services link to correct URLs from architecture
+□ "Locations We Serve" is compact and just above footer
+□ Mobile sticky CTA is implemented
+□ All schema markup is in place
+
+=======================================================
+WHAT NOT TO DO
+=======================================================
+
+- Do NOT put "About Us" or company history high on the page
+- Do NOT lead with generic claims like "Quality Service Since 2005"
+- Do NOT bury the Google reviews or testimonials at the bottom
+- Do NOT make the service area section a major visual element
+- Do NOT use stock photo carousels — one strong hero image only
+- Do NOT add sections not specified above
+
+Generate the homepage following this exact structure and hierarchy.

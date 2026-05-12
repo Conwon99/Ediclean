@@ -30,6 +30,8 @@ interface Props {
   canonical?: string;
   noindex?: boolean;
   locationSchema?: LocationSchemaProp;
+  /** Additional JSON-LD objects output as separate script tags (FAQPage, ContactPage, Service, etc.). */
+  extraJsonLd?: Record<string, unknown>[];
 }
 
 const siteUrl = SITE_URL;
@@ -47,6 +49,7 @@ const {
   canonical = defaultCanonical,
   noindex = false,
   locationSchema,
+  extraJsonLd = [],
 } = Astro.props;
 
 const fullImageUrl = image.startsWith('http') ? image : `${siteUrl}${image}`;
@@ -219,6 +222,10 @@ const defaultAreaServed = [
         FACEBOOK_PROFILE_URL
       ]
     })} />
+
+    {extraJsonLd.map((obj) => (
+      <script type="application/ld+json" set:html={JSON.stringify(obj)} />
+    ))}
   </head>
   <body>
     <slot />

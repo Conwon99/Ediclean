@@ -1,20 +1,32 @@
----
-import Layout from '../layouts/Layout.astro';
-import { Navbar } from '../sections/Navbar';
-import { QuoteSection } from '../sections/QuoteSection';
-import { FooterSection } from '../sections/FooterSection';
-import { BUSINESS_NAME, META_AREA_PHRASE, PHONE_DISPLAY } from '../constants/site';
----
-
-<Layout 
-  title={`Contact Us - ${BUSINESS_NAME} | Get a Free Quote`}
-  description={`Contact ${BUSINESS_NAME} for a free quote on exterior cleaning. Call ${PHONE_DISPLAY} or fill out our form. Roof, render, driveway, gutter, PVC and window cleaning across ${META_AREA_PHRASE}.`}
->
-  <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
-    <Navbar client:load />
-    <main class="pt-0">
-      <QuoteSection client:load showTerms={false} />
-      <FooterSection client:load />
-    </main>
-  </div>
-</Layout>
+---
+import Layout from '../layouts/Layout.astro';
+import { Navbar } from '../sections/Navbar';
+import { QuoteSection } from '../sections/QuoteSection';
+import { ContactPageSupplement } from '../sections/ContactPage';
+import { FooterSection } from '../sections/FooterSection';
+import { BUSINESS_NAME, PHONE_DISPLAY, SITE_URL, GBP_PRIMARY_CATEGORY_LABEL, SERVICE_REGION_SHORT, SITE_TITLE_AREA } from '../constants/site';
+
+const title = `Contact ${BUSINESS_NAME} | ${GBP_PRIMARY_CATEGORY_LABEL} ${SITE_TITLE_AREA}`;
+const description = `Contact ${BUSINESS_NAME} for exterior cleaning in ${SERVICE_REGION_SHORT}. Call ${PHONE_DISPLAY} or use the form — roof, render, driveway, gutter, PVC and window cleaning. Fully insured.`;
+
+const contactPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  name: `Contact ${BUSINESS_NAME}`,
+  description,
+  url: `${SITE_URL}/contact/`,
+  mainEntity: { "@id": `${SITE_URL}/#localbusiness` },
+};
+---
+
+<Layout title={title} description={description} extraJsonLd={[contactPageJsonLd]}>
+  <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
+    <Navbar client:load />
+    <main class="pt-0">
+      <h1 class="sr-only">Contact {BUSINESS_NAME}</h1>
+      <QuoteSection client:load showTerms={false} />
+      <ContactPageSupplement client:load />
+      <FooterSection client:load />
+    </main>
+  </div>
+</Layout>

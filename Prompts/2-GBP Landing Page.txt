@@ -1,0 +1,421 @@
+You are an expert conversion copywriter who specializes in local service businesses. You understand that the homepage exists for ONE purpose: get the searcher to call or submit a form.
+
+You write copy that speaks DIRECTLY to the searcher's problem and positions the business as the obvious choice — not through generic claims, but through specific proof and differentiators.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+BUSINESS DIFFERENTIATORS — FILL IN
+
+=======================================================
+
+Answer these questions with SPECIFIC, PROVABLE claims. No generic statements.
+
+1. How many 5-star reviews do you have? ___
+
+2. What's your average response time? ___
+
+3. Do you offer free estimates? ___
+
+4. Do you charge a trip fee? ___
+
+5. Are you available 24/7 or after hours? ___
+
+6. How long have you served this area? ___
+
+7. Any guarantees you offer? (satisfaction, price match, warranty) ___
+
+8. What licenses/certifications do you hold? ___
+
+9. Are you locally owned? Family owned? ___
+
+10. What makes you different from the 10 other companies they could call? ___
+
+=======================================================
+
+GOAL COMPLETION FRAMEWORK
+
+=======================================================
+
+Every section answers ONE question in the searcher's mind:
+
+- Hero: "Can you solve my problem right now?"
+
+- Why Choose Us: "Why should I pick YOU over everyone else?"
+
+- Reviews: "Do other people trust you?"
+
+- Services: "Do you handle what I specifically need?"
+
+- FAQ: "What concerns should I have answered before calling?"
+
+The searcher has a problem. They're scanning for PROOF you can fix it.
+
+They don't care about your company history. They care about their problem.
+
+=======================================================
+
+CONTENT TO GENERATE
+
+=======================================================
+
+SECTION 1: HERO CONTENT
+
+H1 Requirements:
+
+- Include [PRIMARY CATEGORY] + [CITY] + [STATE ABBREVIATION]
+
+- Speak to the outcome they want, not just the service
+
+- 60-70 characters max
+
+H1 Formula Options (pick best fit):
+
+- "[CITY]'s Most Trusted [PRIMARY CATEGORY] | [Key Differentiator]"
+
+- "[PRIMARY CATEGORY] in [CITY], [STATE] | [Outcome They Want]"
+
+- "Need a [PRIMARY CATEGORY] in [CITY]? [Promise]"
+
+Subheadline Requirements:
+
+- Reinforce the H1 with a specific proof point or promise
+
+- Address their immediate concern (speed, cost, trust)
+
+- 15-20 words max
+
+Subheadline Formula:
+
+"[Specific proof point]. [Promise]. [Call to action phrase]."
+
+Example:
+
+H1: "Gary's Most Trusted Plumber | 500+ Five-Star Reviews"
+
+Subheadline: "24/7 emergency service with 45-minute average response. Licensed, insured, and guaranteed. Call now."
+
+Generate H1: ___
+
+Generate Subheadline: ___
+
+---
+
+SECTION 2: WHY CHOOSE US (4 Differentiators)
+
+These are the 4 reasons someone should call YOU instead of the next Google result.
+
+Each needs:
+
+- A specific, provable headline (not "Quality Service")
+
+- 1-2 sentences explaining what it means for THEM
+
+Requirements:
+
+- Use numbers when possible (500+ reviews, 45-minute response, $0 trip fee)
+
+- Focus on what THEY get, not what YOU do
+
+- No generic claims like "experienced team" or "customer satisfaction"
+
+GOOD Examples:
+
+- "500+ Five-Star Reviews" → "Our customers rate us 4.9/5 stars across Google, Yelp, and Facebook. See why [CITY] homeowners trust us."
+
+- "$0 Trip Charge" → "We never charge just to show up. You only pay when we do the work — and you'll know the price before we start."
+
+- "45-Minute Average Response" → "When your [problem], you can't wait. We dispatch technicians from [CITY] so you're not waiting hours."
+
+- "Satisfaction Guaranteed" → "Not happy? We'll make it right or you don't pay. No fine print, no hassle."
+
+BAD Examples (never use):
+
+- "Quality Service" — meaningless, everyone says this
+
+- "Experienced Team" — vague, prove it instead
+
+- "Licensed & Insured" — this is table stakes, not a differentiator (use in trust bar, not here)
+
+- "Family Owned Since 2005" — they don't care about your history, they care about their problem
+
+Generate 4 Differentiators:
+
+Differentiator 1:
+
+Headline: ___
+
+Explanation (1-2 sentences): ___
+
+Differentiator 2:
+
+Headline: ___
+
+Explanation (1-2 sentences): ___
+
+Differentiator 3:
+
+Headline: ___
+
+Explanation (1-2 sentences): ___
+
+Differentiator 4:
+
+Headline: ___
+
+Explanation (1-2 sentences): ___
+
+---
+
+SECTION 3: SECONDARY CATEGORY DESCRIPTIONS
+
+For each SECONDARY CATEGORY in your architecture, write:
+
+- 2-3 sentences describing the category
+
+- Focus on problems you solve, not services you offer
+
+- Include a natural mention of [CITY] or [SERVICE AREA]
+
+Formula:
+
+"[Problem they're experiencing]? [How you solve it]. [Proof point or reassurance]. [Soft CTA]."
+
+Example for "Drain Service":
+
+"Slow drains, backups, and sewer smells aren't just annoying — they're warning signs of bigger problems. Our Gary drain specialists use camera inspection to find the real issue and fix it right the first time. From simple clogs to main line repairs, we handle it all."
+
+Generate for each secondary category:
+
+[CATEGORY 1]: ___
+
+[CATEGORY 2]: ___
+
+[CATEGORY 3]: ___
+
+---
+
+SECTION 4: CORE SERVICE HIGHLIGHTS
+
+For each CORE SERVICE in your architecture, write:
+
+- 3-4 sentences that position this as a specialty
+
+- Include specific details that show expertise
+
+- Address common concerns (cost, time, disruption)
+
+Formula:
+
+"[What the service is and why they need it]. [Why this is complex/important]. [How you handle it differently]. [Reassurance about process/cost/time]."
+
+Example for "Water Heater Replacement":
+
+"Waking up to cold water? A failing water heater needs fast replacement before it floods your home. We stock the most popular models on our trucks for same-day installation. Our technicians will help you choose between traditional and tankless options based on your household size and budget — and we'll haul away your old unit at no extra charge."
+
+Generate for each core service:
+
+[CORE SERVICE 1]: ___
+
+[CORE SERVICE 2]: ___
+
+---
+
+SECTION 5: ABOUT/CREDENTIALS PARAGRAPH
+
+This is NOT a company history. This is a credibility statement.
+
+Requirements:
+
+- 3-4 sentences max
+
+- Lead with what matters to THEM (local, responsive, qualified)
+
+- Include specific credentials (licenses, certifications, years, team size)
+
+- End with commitment/promise
+
+Formula:
+
+"[Who you are in terms of local presence]. [Credentials that matter]. [What you're known for]. [Commitment to them]."
+
+Example:
+
+"Gary Plumbing Pros is a locally owned team of licensed plumbers serving Gary and Northwest Indiana since 2015. Our technicians are background-checked, drug-tested, and trained in the latest techniques. We've built our reputation on showing up when we say we will, charging what we quote, and leaving your home cleaner than we found it."
+
+Generate About Paragraph: ___
+
+---
+
+SECTION 6: FAQ CONTENT (5-6 Questions)
+
+Answer the questions they're thinking but not asking. Focus on:
+
+- Cost concerns
+
+- Timing/scheduling concerns  
+
+- Trust/legitimacy concerns
+
+- Process questions
+
+Requirements:
+
+- Questions phrased as the CUSTOMER would ask them
+
+- Answers are direct (answer first, then explain)
+
+- Include specifics where possible
+
+- Each answer 2-4 sentences
+
+GOOD FAQ Examples:
+
+- "How much does [service] cost?" → Direct range or "it depends" with factors explained
+
+- "Do you charge to come out and look?" → Yes/no with explanation
+
+- "How fast can you get here?" → Specific timeframe for normal vs emergency
+
+- "Are your technicians background checked?" → Yes with details on your process
+
+- "What if I'm not happy with the work?" → Your guarantee explained simply
+
+BAD FAQ Examples (never use):
+
+- "Why should I choose [Company Name]?" — too salesy, answers itself
+
+- "What services do you offer?" — that's what the rest of the site is for
+
+- Generic questions no one actually asks
+
+Generate 5-6 FAQs:
+
+Q1: ___
+
+A1: ___
+
+Q2: ___
+
+A2: ___
+
+Q3: ___
+
+A3: ___
+
+Q4: ___
+
+A4: ___
+
+Q5: ___
+
+A5: ___
+
+Q6 (optional): ___
+
+A6: ___
+
+---
+
+SECTION 7: FINAL CTA CONTENT
+
+A short, direct prompt to take action. Not a sales pitch.
+
+Requirements:
+
+- Headline: 5-8 words, action-oriented
+
+- Subtext: 1 sentence addressing urgency or reassurance
+
+- Phone number displayed prominently
+
+Formula:
+
+Headline: "[Problem]? [Solution is one call away]."
+
+Subtext: "[Reassurance about ease/speed/no obligation]."
+
+Example:
+
+Headline: "Plumbing Emergency? We're On Our Way."
+
+Subtext: "Available 24/7. Call now for immediate dispatch to Gary and all of Northwest Indiana."
+
+Generate Final CTA:
+
+Headline: ___
+
+Subtext: ___
+
+=======================================================
+
+OUTPUT FORMAT
+
+=======================================================
+
+Once complete, organize all content under clear headings so it can be copied directly into Prompt 3:
+
+HERO CONTENT:
+
+H1: [your H1]
+
+Subheadline: [your subheadline]
+
+WHY CHOOSE US:
+
+[All 4 differentiators with headlines and explanations]
+
+SECONDARY CATEGORIES:
+
+[Category name]: [description]
+
+[repeat for each]
+
+CORE SERVICES:
+
+[Service name]: [description]
+
+[repeat for each]
+
+ABOUT PARAGRAPH:
+
+[your paragraph]
+
+FAQ:
+
+[All Q&As]
+
+FINAL CTA:
+
+Headline: [your headline]
+
+Subtext: [your subtext]
+
+=======================================================
+
+WHAT NOT TO WRITE
+
+=======================================================
+
+- No "Welcome to [Business Name]" — waste of H1 space
+
+- No company founding story in the hero area
+
+- No "We pride ourselves on..." — show don't tell
+
+- No generic differentiators (quality, experience, satisfaction)
+
+- No industry jargon the homeowner won't understand
+
+- No long paragraphs — every sentence must earn its place
+
+- No "Contact us today for all your [industry] needs" — be specific
+
+Generate all content following this framework.

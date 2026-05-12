@@ -1,0 +1,243 @@
+You are a senior web developer and local SEO expert. Your task: create complete core service pages with content, proper structure, and internal linking. Core service pages are high-value service hubs that link DOWN to related child services and UP to the homepage.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+IMPLEMENTATION INSTRUCTIONS
+
+=======================================================
+
+Create a page for EACH Core Service listed in the SERVICE HIERARCHY section of the architecture.
+
+FOR EACH CORE SERVICE PAGE:
+
+1. SEO Meta Elements
+
+- Title tag: "[Service Name] [City] [State Abbrev] | Same-Day Service Available"
+
+- Meta description: Compelling 150-160 characters emphasizing fast resolution
+
+- H1: "[Service Name] in [City] [State Abbrev] — [Urgency/Benefit Phrase]"
+
+2. Hero Section
+
+- MUST include a professional background IMAGE relevant to this service (generate appropriate image)
+
+- Do NOT use a solid color background
+
+- Dark overlay for text readability
+
+- H1 displayed prominently
+
+- Subheadline: 2-3 sentences speaking to user's crisis/urgent situation, emphasizing speed, including phone number
+
+- "Call Now" and "Schedule Service" buttons
+
+- Trust signals below CTAs
+
+3. Content Structure (1,000-1,200 words per page)
+
+OPENING PARAGRAPH (3-4 sentences):
+
+- Focus on the USER's urgent situation
+
+- Acknowledge the disruption to their life
+
+- Tell them how fast you can solve it
+
+- This isn't a "wait and see" problem
+
+H2: Signs You Need [Service Name]
+
+Write 150-200 words:
+
+- Warning signs that indicate need for this service
+
+- What these signs mean
+
+- Why waiting makes it worse/more expensive
+
+- When repair vs replacement makes sense
+
+H2: Our [Service Name] Options
+
+Write 200-300 words that:
+
+- Explains the main service process
+
+- Mentions EVERY child service listed under this core service in the architecture
+
+- Each service name must appear exactly as listed (these become links)
+
+- Explains when someone would choose each option
+
+- Written as flowing paragraphs, NOT bullet lists
+
+H2: [Service Name] for [City] Homes/Businesses
+
+Write 150-200 words:
+
+- Why this service is relevant to this area
+
+- Reference LOCAL ISSUES from architecture
+
+- Reference SERVICE AREAS from architecture
+
+- Local factors that affect this service
+
+H2: What to Expect
+
+Write 100-150 words:
+
+- What happens when they call
+
+- How you diagnose/assess
+
+- Timeline from call to completion
+
+- Upfront pricing
+
+H2: Why Choose Us for [Service Name]
+
+Write 100-150 words:
+
+- Reference TRUST SIGNALS from architecture
+
+- Same-day service emphasis
+
+- Upfront pricing
+
+- Confident and reassuring tone
+
+FINAL CTA:
+
+- 2-3 sentences creating urgency specific to this service
+
+- Include phone number
+
+- Emphasize speed
+
+HOMEPAGE LINK:
+
+- Natural sentence linking back to homepage using HOMEPAGE ANCHOR TEXT OPTIONS from architecture
+
+4. Internal Linking (Critical)
+
+- Every child service name in content MUST be hyperlinked to its URL (from architecture)
+
+- If architecture shows link to related Secondary Category, include that link
+
+- Include homepage link as written
+
+- Links must be clean URLs — no anchor tags (#)
+
+5. Related Services Grid
+
+After main content, add visual grid showing child services under this core service:
+
+- Service name as heading
+
+- 1-sentence description
+
+- "Learn More →" link to service page
+
+6. Schema Markup
+
+Service schema as JSON-LD:
+
+- @type: Service
+
+- serviceType: [Service Name]
+
+- provider: reference to LocalBusiness
+
+- areaServed: [CITY], [STATE]
+
+7. Scroll Behavior
+
+- All links load destination pages at TOP
+
+- No anchor links
+
+8. Page Section Order
+
+1. Hero (image, H1, subheadline, CTAs, trust signals)
+
+2. Opening paragraph
+
+3. H2: Signs You Need section
+
+4. H2: Our Options section (with internal links)
+
+5. H2: For [City] section
+
+6. H2: What to Expect section
+
+7. H2: Why Choose Us section
+
+8. Related services grid
+
+9. Final CTA
+
+10. Footer
+
+=======================================================
+
+CONTENT GUIDELINES
+
+=======================================================
+
+For Google:
+
+- Service name + city in H1 and first paragraph
+
+- Each child service mentioned by exact name
+
+- Local references from architecture
+
+For AI Systems:
+
+- Sound like a local expert
+
+- Natural, conversational language
+
+- Genuinely helpful
+
+Language:
+
+- 5th grade reading level
+
+- Short sentences
+
+- Confident and reassuring, not salesy
+
+Words to AVOID: embark, look no further, top-notch, comprehensive, delve, crucial, vital, seamless, cutting-edge, leverage, robust, game-changer, nestled, we understand, testament, state-of-the-art
+
+=======================================================
+
+VERIFICATION
+
+=======================================================
+
+After creating pages, confirm:
+
+- Hero images displaying (not solid colors)
+
+- All child service names are clickable links
+
+- Links load pages at TOP
+
+- Trust signals in hero
+
+- Related services grid displays
+
+- Total core service pages created matches architecture
+
+Generate all core service pages with content, design, and functionality as specified.

@@ -88,7 +88,7 @@ export const WhyChooseCeramicCoatingsSection = () => {
                   </span>
                 </a>
                 <a
-                  href="/packages/machine-polishing"
+                  href="/contact/"
                   className="text-neutral-800 items-center box-border caret-transparent gap-x-3 flex max-w-full gap-y-3 text-center border border-cta-dark px-6 py-4 rounded-[100px] border-solid hover:bg-cta-dark hover:text-white"
                 >
                   <span className="relative text-sm font-medium z-[2] md:text-base md:leading-6">View Packages</span>

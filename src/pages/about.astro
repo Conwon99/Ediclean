@@ -3,21 +3,23 @@ import Layout from '../layouts/Layout.astro';
 import { Navbar } from '../sections/Navbar';
 import { AboutPageHero } from '../sections/AboutPageHero';
 import { AboutPageAbout } from '../sections/AboutPageAbout';
+import { AboutPageEeat } from '../sections/AboutPageEeat';
 import { ProcessSection } from '../sections/ProcessSection';
 import { QuoteSection } from '../sections/QuoteSection';
 import { FooterSection } from '../sections/FooterSection';
-import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
+import { BUSINESS_NAME, GBP_PRIMARY_CATEGORY_LABEL, SERVICE_REGION_SHORT, SITE_TITLE_AREA } from '../constants/site';
 ---
 
 <Layout 
-  title={`About Us - ${BUSINESS_NAME} | Exterior Cleaning ${META_AREA_PHRASE}`}
-  description={`Learn about ${BUSINESS_NAME} — professional exterior cleaning across ${META_AREA_PHRASE}. Roof steam cleaning, render softwashing, driveway, gutter, PVC and window cleaning. Fully insured, mobile service.`}
+  title={`About ${BUSINESS_NAME} | ${GBP_PRIMARY_CATEGORY_LABEL} ${SITE_TITLE_AREA}`}
+  description={`Meet ${BUSINESS_NAME} — locally operated exterior cleaning across ${SERVICE_REGION_SHORT}. Fully insured roof, render, driveway, gutter, PVC and window cleaning.`}
 >
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />
     <main class="pt-0">
       <AboutPageHero client:load />
       <AboutPageAbout client:load />
+      <AboutPageEeat client:load />
       <ProcessSection client:load />
       <QuoteSection client:load showTerms={false} />
       <FooterSection client:load />

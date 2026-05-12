@@ -15,7 +15,12 @@ import { getServiceBySlug } from "../../data/services";
 import { getServiceDetail } from "../../data/serviceDetails";
 import { getLocationServiceIntro } from "../../data/locationServiceIntros";
 import { LocationServicePageIntro } from "../../sections/LocationPage";
-import { BUSINESS_NAME } from "../../constants/site";
+import {
+  getLocationServiceMetaDescription,
+  getLocationServiceTitle,
+} from "../../data/seo";
+import { getServiceOfferJsonLd } from "../../data/serviceStructuredData";
+import { ServicePageCostSection } from "../../sections/ServicePageCostSection";
 
 export async function getStaticPaths() {
   const { locationSlugs } = await import("../../data/locations");
@@ -37,8 +42,8 @@ if (!location || !service) {
   return Astro.redirect("/404");
 }
 
-const title = `${service.title} ${location.name} | Professional Exterior Cleaning | ${BUSINESS_NAME}`;
-const description = `${service.shortDescription} We come to you in ${location.name} and the surrounding areas. Get a free quote.`;
+const title = getLocationServiceTitle(location, service);
+const description = getLocationServiceMetaDescription(location, service);
 
 const detail = getServiceDetail(service.slug);
 const baseHero = detail?.heroDescription ?? service.shortDescription;
@@ -46,11 +51,11 @@ const heroDescription = `${baseHero} We come to you in ${location.name} and the 
 
 const pageIntro = getLocationServiceIntro(location, service);
 
-const packagesHref = "/services";
+const packagesHref = "/services/";
 const packagesLabel = "View Our Services";
 ---
 
-<Layout title={title} description={description}>
+<Layout title={title} description={description} extraJsonLd={[getServiceOfferJsonLd(service)]}>
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />
     <main class="pt-0">
@@ -59,8 +64,8 @@ const packagesLabel = "View Our Services";
           client:load
           items={[
             { label: "Home", href: "/" },
-            { label: "Locations", href: "/locations" },
-            { label: location.name, href: `/${location.slug}` },
+            { label: "Locations", href: "/locations/" },
+            { label: location.name, href: `/${location.slug}/` },
             { label: service.title },
           ]}
         />
@@ -118,6 +123,7 @@ const packagesLabel = "View Our Services";
         <>
           <ExteriorWhyChooseSection client:load serviceSlug={service.slug} location={location} />
           <ExteriorProcessSection client:load serviceSlug={service.slug} location={location} />
+          <ServicePageCostSection client:load serviceTitle={service.title} />
           <ExteriorFAQSection client:load serviceSlug={service.slug} location={location} />
         </>
       )}

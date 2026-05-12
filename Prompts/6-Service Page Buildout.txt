@@ -1,0 +1,303 @@
+You are a senior web developer and local SEO expert. Your task: create the Services hub page and all child service pages. The Services page is a navigation hub. Child service pages link back UP to their parent page.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+PART 1: SERVICES PAGE
+
+=======================================================
+
+PAGE URL: /services
+
+1. SEO Meta Elements
+
+- Title tag: "[INDUSTRY] Services [City] [State Abbrev] | Complete Service List"
+
+- Meta description: "Full list of [INDUSTRY] services in [CITY] [STATE ABBREV]. [Mention 3-4 service types]. Licensed professionals, same-day service."
+
+- H1: "[INDUSTRY] Services in [City] [State Abbrev] — Full-Service [PRIMARY CATEGORY] for Every Job"
+
+2. Hero Section
+
+- Clean hero (solid color or subtle image acceptable here)
+
+- H1 displayed prominently
+
+- Subheadline: "Find the service you need or call us — we'll figure it out together."
+
+- Phone number and "Call Now" button
+
+- Trust signals below
+
+3. Opening Paragraph
+
+3-4 sentences:
+
+- Acknowledge user is looking for specific service
+
+- Assure them you handle everything
+
+- Mention 24/7 and same-day service
+
+- Include phone number
+
+4. Service Sections
+
+Create a section for each grouping in SERVICE HIERARCHY from architecture:
+
+For each Secondary Category:
+
+- H2: [Category Name] (linked to category page URL)
+
+- Grid of cards for each child service under this category
+
+- Each card: Service name, 1-sentence description, link to page
+
+For each Core Service:
+
+- H2: [Service Name] (linked to core service page URL)
+
+- Grid of cards for each child service under this core service
+
+- Each card: Service name, 1-sentence description, link to page
+
+For General Services:
+
+- H2: "General [INDUSTRY] Services"
+
+- Grid of cards for each general service
+
+- Each card: Service name, 1-sentence description, link to page
+
+5. Final CTA
+
+- "Not Sure What You Need?"
+
+- "Call us at [PHONE NUMBER] — we'll diagnose the problem and recommend the right solution."
+
+- Call Now button
+
+=======================================================
+
+PART 2: CHILD SERVICE PAGES
+
+=======================================================
+
+Create individual pages for EVERY child service listed in SERVICE HIERARCHY (under Secondary Categories, Core Services, and General Services).
+
+FOR EACH CHILD SERVICE PAGE:
+
+1. URL
+
+Use the URL defined in the architecture for each service.
+
+2. SEO Meta Elements
+
+- Title tag: "[Service Name] [City] [State Abbrev] | Fast, Professional Service"
+
+- Meta description: 150-160 characters describing this service
+
+- H1: "[Service Name] in [City] [State Abbrev] — [Benefit Phrase]"
+
+3. Hero Section
+
+- MUST include professional background IMAGE relevant to this service (generate appropriate image)
+
+- Do NOT use solid color background
+
+- Dark overlay for readability
+
+- H1 displayed prominently
+
+- Subheadline: 1-2 sentences about when someone needs this service
+
+- "Call Now" and "Schedule Service" buttons
+
+- Trust signals below CTAs
+
+4. Content Structure (600-800 words per page)
+
+OPENING PARAGRAPH (3-4 sentences):
+
+- Speak to user's specific problem
+
+- Acknowledge their situation
+
+- Tell them you can solve it quickly
+
+H2: When You Need [Service Name]
+
+Write 100-150 words:
+
+- Signs/situations requiring this service
+
+- Why not to wait
+
+- Common causes
+
+H2: Our [Service Name] Process
+
+Write 100-150 words:
+
+- How you perform this service
+
+- What customer can expect
+
+- Timeline
+
+H2: [Service Name] Cost in [City]
+
+Write 75-100 words:
+
+- Factors affecting pricing
+
+- Upfront quotes commitment
+
+- No hidden fees
+
+- Do NOT list specific prices
+
+H2: Why Choose Us
+
+Write 75-100 words:
+
+- Trust signals
+
+- Same-day service
+
+- Satisfaction guaranteed
+
+- Local expertise
+
+FINAL CTA:
+
+- 2-3 sentences driving action
+
+- Phone number
+
+PARENT PAGE LINK (Critical):
+
+Natural sentence linking back to the PARENT page as defined in INTERNAL LINKING MAP:
+
+- If under Secondary Category → link to that category page
+
+- If under Core Service → link to that core service page
+
+- If under General Services → link to homepage
+
+5. Schema Markup
+
+Service schema as JSON-LD:
+
+- @type: Service
+
+- serviceType: [Service Name]
+
+- provider: reference to LocalBusiness
+
+- areaServed: [CITY], [STATE]
+
+6. Design Requirements
+
+- Hero image required
+
+- Match site design style
+
+- Mobile responsive
+
+- Click-to-call on phone numbers
+
+7. Page Section Order
+
+1. Hero (image, H1, subheadline, CTAs, trust signals)
+
+2. Opening paragraph
+
+3. H2: When You Need section
+
+4. H2: Our Process section
+
+5. H2: Cost section
+
+6. H2: Why Choose Us section
+
+7. Final CTA with parent link
+
+8. Footer
+
+=======================================================
+
+CONTENT GUIDELINES FOR ALL PAGES
+
+=======================================================
+
+For Google:
+
+- Service name + city in H1 and first paragraph
+
+- Local references where natural
+
+- Proper heading hierarchy
+
+For AI Systems:
+
+- Sound like local expert
+
+- Natural language
+
+- Genuinely helpful
+
+Language:
+
+- 5th grade reading level
+
+- Short sentences
+
+- Not salesy
+
+Words to AVOID: embark, look no further, top-notch, comprehensive, delve, crucial, vital, seamless, cutting-edge, leverage, robust, game-changer, nestled, we understand, testament
+
+=======================================================
+
+SCROLL BEHAVIOR
+
+=======================================================
+
+All internal links must load destination pages at TOP. No anchor links.
+
+=======================================================
+
+VERIFICATION
+
+=======================================================
+
+After creating all pages, confirm:
+
+- Services page displays all services organized by category
+
+- All category/service headings link to their pages
+
+- All service cards link to individual pages
+
+- Every child page has:
+
+- Hero image (not solid color)
+
+- H1 with service name + city
+
+- Link back to correct parent page
+
+- Schema markup
+
+- All links load pages at TOP
+
+- Total pages created matches PAGE COUNT SUMMARY from architecture
+
+Generate the Services page and all child service pages as specified.

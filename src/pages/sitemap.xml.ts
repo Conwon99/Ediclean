@@ -11,6 +11,8 @@ const staticPages: string[] = [
   "contact",
   "gallery",
   "services",
+  "exterior-roofline-cleaning",
+  "exterior-facades-ground-cleaning",
   "roof-steam-cleaning",
   "render-softwashing",
   "driveway-cleaning",
@@ -37,6 +39,7 @@ function getPriority(path: string): string {
   if (path === "") return "1.0";
   const main = ["about", "services", "contact", "gallery"];
   if (main.includes(path)) return "0.9";
+  if (path === "exterior-roofline-cleaning" || path === "exterior-facades-ground-cleaning") return "0.82";
   if (path === "locations" || locationSlugs.includes(path)) return "0.85";
   if (locationPaths.includes(path) && path.includes("/")) return "0.8"; // location-service
   if (

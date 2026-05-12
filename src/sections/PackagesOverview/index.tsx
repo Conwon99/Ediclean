@@ -96,7 +96,7 @@ export const PackagesOverview = () => {
                           {pkg.priceDisplay}
                         </p>
                         <a
-                          href={`/packages/${categoryId}/${pkg.id}`}
+                          href={`/contact/?package=${encodeURIComponent(`${categoryId}/${pkg.id}`)}`}
                           className="mt-4 inline-block text-center text-white font-figtree text-sm font-medium py-2.5 px-4 rounded-lg bg-cta hover:bg-cta-dark border border-transparent transition w-full"
                         >
                           View details

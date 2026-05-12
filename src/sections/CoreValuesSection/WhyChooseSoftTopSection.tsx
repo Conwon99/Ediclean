@@ -52,7 +52,7 @@ export const WhyChooseSoftTopSection = () => {
                   <span className="relative text-sm font-medium z-[2] md:text-base md:leading-6">BOOK NOW</span>
                   <span className="box-border caret-transparent"><img src="https://c.animaapp.com/mhnzg6knJo6lE7/assets/icon-8.svg" alt="" className="box-border caret-transparent h-2 w-3 brightness-0 invert" /></span>
                 </a>
-                <a href="/packages/" className="text-neutral-800 items-center box-border caret-transparent gap-x-3 flex max-w-full gap-y-3 text-center border border-cta-dark px-6 py-4 rounded-[100px] border-solid hover:bg-cta-dark hover:text-white">
+                <a href="/contact/" className="text-neutral-800 items-center box-border caret-transparent gap-x-3 flex max-w-full gap-y-3 text-center border border-cta-dark px-6 py-4 rounded-[100px] border-solid hover:bg-cta-dark hover:text-white">
                   <span className="relative text-sm font-medium z-[2] md:text-base md:leading-6">View Packages</span>
                   <span className="box-border caret-transparent"><img src="https://c.animaapp.com/mhnzg6knJo6lE7/assets/icon-8.svg" alt="" className="box-border caret-transparent h-2 w-3 brightness-0 invert" /></span>
                 </a>

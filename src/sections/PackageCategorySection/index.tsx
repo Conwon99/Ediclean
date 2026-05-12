@@ -28,7 +28,7 @@ export const PackageCategorySection = ({ categoryId }: PackageCategorySectionPro
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center px-5">
           <a
-            href="/packages/"
+            href="/contact/"
             className="inline-block text-sm font-figtree text-white/90 hover:text-white mb-4"
           >
             ← Back to Packages

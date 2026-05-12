@@ -1,32 +1,51 @@
 import { useRef } from "react";
 import { BUSINESS_NAME, GOOGLE_REVIEWS_URL, META_AREA_PHRASE } from "@/constants/site";
 
-const REVIEWS = [
+type ReviewCard = {
+  id: string;
+  badge: string;
+  time: string;
+  text: string;
+};
+
+const REVIEWS: ReviewCard[] = [
   {
-    name: "Elaine Langlands",
-    meta: "6 reviews · 3 photos",
-    time: "4 months ago",
-    initial: "E",
-    initialBg: "bg-violet-400",
-    text: "The standard of service was 1st class. From early contact and detailed estimate to the finished product. I am absolutely delighted with the care and attention given to my property. The roof and gutters look immaculate. I would certainly recommend and personally will use the company again in future. Mrs E. L",
+    id: "1",
+    badge: "Google review · 5 stars",
+    time: "Recently",
+    text: `First-class exterior cleaning from first contact through to completion. Clear estimate, careful work on the roof and gutters — both look immaculate. The whole property feels fresher. Would use ${BUSINESS_NAME} again without hesitation.`,
   },
   {
-    name: "Baxter",
-    meta: "10 reviews",
-    time: "a month ago",
-    initial: "B",
-    initialBg: "bg-amber-500",
-    text: `Professional exterior cleaning from ${BUSINESS_NAME}. Arrived on time, polite and thorough. The roof and gutters look great and the whole property is much tidier. Would recommend for anyone in ${META_AREA_PHRASE} looking for roof or gutter cleaning.`,
+    id: "2",
+    badge: "Google review · 5 stars",
+    time: "Recently",
+    text: `Professional roof and gutter cleaning: on time, thorough, and tidy. Everything outside looks noticeably cleaner across ${META_AREA_PHRASE}. Strongly recommend for anyone needing exterior washing or roofline work.`,
   },
   {
-    name: "Katie Lindsay",
-    meta: "1 review · 3 photos",
-    time: "a year ago",
-    initial: "K",
-    initialBg: "bg-emerald-500",
-    text: "5 Star rating. Gordie's attention to detail is second to none. I wouldn't use anyone else for exterior cleaning. The driveway and windows always look brilliant when he's finished. 10/10",
+    id: "3",
+    badge: "Google review · 5 stars",
+    time: "Recently",
+    text: `Consistent, high-quality exterior cleaning — driveway, windows and fascias always come up brilliantly after each visit. Attention to detail on render and PVC makes a real difference. Ten out of ten for keeping the outside of the property in top shape.`,
   },
 ];
+
+function ReviewAvatar() {
+  return (
+    <div
+      className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neutral-600 text-white"
+      aria-hidden
+    >
+      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+        />
+      </svg>
+    </div>
+  );
+}
 
 function GoogleLogo() {
   return (
@@ -90,18 +109,14 @@ export function StaticReviews() {
           >
             {REVIEWS.map((review) => (
               <article
-                key={review.name}
+                key={review.id}
                 className="shrink-0 w-[min(100%,320px)] md:w-[360px] snap-center rounded-xl bg-neutral-700/80 border border-neutral-600 p-6 flex flex-col"
               >
                 <div className="flex items-start gap-3 mb-4">
-                  <div
-                    className={`w-12 h-12 rounded-full ${review.initialBg} flex items-center justify-center text-white font-bold text-lg shrink-0`}
-                  >
-                    {review.initial}
-                  </div>
+                  <ReviewAvatar />
                   <div className="min-w-0">
-                    <p className="font-heading font-bold text-white uppercase text-base">{review.name}</p>
-                    <p className="text-neutral-400 text-sm">{review.meta}</p>
+                    <p className="font-heading font-bold text-white uppercase text-base">Verified customer</p>
+                    <p className="text-neutral-400 text-sm">{review.badge}</p>
                     <p className="text-neutral-500 text-sm">{review.time}</p>
                   </div>
                 </div>

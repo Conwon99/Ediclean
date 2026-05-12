@@ -282,12 +282,5 @@ export function getLocationGalleryImageIndex(locationSlug: string): number {
 
 /** Unique meta description (~150–160 chars) */
 export function getLocationMetaDescription(location: Location): string {
-  const nearby =
-    location.neighborhoods && location.neighborhoods.length > 0
-      ? ` Near ${location.neighborhoods.slice(0, 2).join(" & ")}.`
-      : "";
-  let out = `Exterior cleaning in ${location.name}, near Edinburgh: roof steam, render softwash, driveways, gutters, PVC and windows.${nearby} Free quote.`;
-  if (out.length <= 160) return out;
-  out = `Exterior cleaning in ${location.name}, Edinburgh area: roof, render, driveways, gutters, PVC and windows. Free quote.`;
-  return out.length <= 160 ? out : out.slice(0, 157).trimEnd() + "...";
+  return `Exterior cleaning in ${location.name}, Edinburgh area: roof steam, render softwash, driveways, gutters, PVC and windows. Free quote.`;
 }

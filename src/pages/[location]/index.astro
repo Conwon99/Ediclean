@@ -15,8 +15,8 @@ import { ServiceAreasSection } from "../../sections/ServiceAreasSection";
 import ReviewsSection from "../../sections/ReviewsSection.astro";
 import { QuoteSection } from "../../sections/QuoteSection";
 import { FooterSection } from "../../sections/FooterSection";
-import { BUSINESS_NAME } from "../../constants/site";
 import { getLocationMetaDescription } from "../../data/locationPageCopy";
+import { getLocationTitle } from "../../data/seo";
 
 export async function getStaticPaths() {
   const { locationSlugs } = await import("../../data/locations");
@@ -32,7 +32,7 @@ if (!location) {
   return Astro.redirect("/404");
 }
 
-const title = `Exterior Cleaning ${location.name} | Roof, Driveway & Gutter Cleaning | ${BUSINESS_NAME}`;
+const title = getLocationTitle(location);
 const description = getLocationMetaDescription(location);
 
 const locationSchema =
@@ -60,7 +60,7 @@ const locationSchema =
           client:load
           items={[
             { label: "Home", href: "/" },
-            { label: "Locations", href: "/locations" },
+            { label: "Locations", href: "/locations/" },
             { label: location.name },
           ]}
         />

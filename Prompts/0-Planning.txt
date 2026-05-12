@@ -1,0 +1,313 @@
+Prompt 0: Planning
+
+You are a local SEO expert who specializes in site architecture for service businesses. Your task: help me plan the complete site structure for a local business website before we build it. This structure will be used to create all pages, navigation, and internal linking.
+
+=======================================================
+
+BUSINESS INFORMATION — TELL ME ABOUT YOUR BUSINESS
+
+=======================================================
+
+BUSINESS NAME: [Your Business Name]
+
+INDUSTRY: [Your Industry - e.g., Plumbing, HVAC, Roofing, Law, Dental]
+
+CITY: [Your City]
+
+STATE: [Your State]
+
+STATE ABBREVIATION: [XX]
+
+ZIP CODE: [XXXXX]
+
+PHONE NUMBER: [Your Phone]
+
+EMAIL: [Your Email]
+
+PRIMARY GBP CATEGORY: [Your main Google Business Profile category - e.g., Plumber, HVAC Contractor, Roofing Contractor]
+
+SECONDARY GBP CATEGORIES (if any): [List any secondary categories from your GBP]
+
+SERVICES YOU OFFER: [List ALL services you want pages for - be comprehensive]
+
+SERVICE AREAS: [List all cities/neighborhoods you serve]
+
+=======================================================
+
+YOUR TASK
+
+=======================================================
+
+Based on the information above, create a complete site architecture that includes:
+
+1. URL STRUCTURE
+
+- Define the homepage URL using format: /[primary-category-slug]-[city-slug]-[state-abbrev]
+
+- Define all page URLs following the same pattern
+
+2. SERVICE HIERARCHY
+
+Organize the services into a logical hierarchy:
+
+- Secondary Categories (from GBP secondary categories or logical groupings)
+
+- Core Services (high-value services that deserve prominent homepage placement)
+
+- Child Services (individual services that fall under categories or core services)
+
+- General Services (services that don't fit a category, link to homepage)
+
+3. PAGE LIST
+
+Provide a complete list of every page that needs to be created:
+
+- Homepage
+
+- Services page
+
+- About page
+
+- Contact page
+
+- Secondary Category pages
+
+- Core Service pages
+
+- All Child Service pages
+
+4. INTERNAL LINKING MAP
+
+Define the linking relationships:
+
+- What the homepage links to
+
+- What each category/core service page links to (children)
+
+- What each child page links back to (parent)
+
+5. NAVIGATION STRUCTURE
+
+- Main navigation items
+
+- Footer links
+
+- Any defined by the hierarchy
+
+=======================================================
+
+OUTPUT FORMAT
+
+=======================================================
+
+Provide the site architecture in this exact format so it can be copied into subsequent prompts:
+
+---
+
+SITE ARCHITECTURE FOR [BUSINESS NAME]
+
+=======================================================
+
+BASIC INFORMATION
+
+=======================================================
+
+BUSINESS NAME: [Name]
+
+INDUSTRY: [Industry]
+
+CITY: [City]
+
+STATE: [State]
+
+STATE ABBREVIATION: [XX]
+
+ZIP CODE: [XXXXX]
+
+PHONE NUMBER: [Phone]
+
+EMAIL: [Email]
+
+PRIMARY CATEGORY: [Primary GBP Category]
+
+TARGET KEYWORD: [Primary Category] [City] [State Abbrev]
+
+SERVICE AREAS: [List all]
+
+TRUST SIGNALS: [Suggest 4 relevant trust signals for this industry]
+
+LOCAL ISSUES: [Suggest 4-5 local/regional issues relevant to this industry and location]
+
+=======================================================
+
+URL STRUCTURE
+
+=======================================================
+
+HOMEPAGE: /[url]
+
+MAIN PAGES:
+
+- Services: /services
+
+- About: /about
+
+- Contact: /contact
+
+SECONDARY CATEGORY PAGES:
+
+- [Category Name]: /[url]
+
+- [Category Name]: /[url]
+
+CORE SERVICE PAGES:
+
+- [Service Name]: /[url]
+
+- [Service Name]: /[url]
+
+=======================================================
+
+SERVICE HIERARCHY
+
+=======================================================
+
+SECONDARY CATEGORY 1: [Category Name]
+
+Category Page URL: /[url]
+
+Child Services:
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+SECONDARY CATEGORY 2: [Category Name]
+
+Category Page URL: /[url]
+
+Child Services:
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+CORE SERVICE 1: [Service Name]
+
+Core Service Page URL: /[url]
+
+Child Services:
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+CORE SERVICE 2: [Service Name]
+
+Core Service Page URL: /[url]
+
+Child Services:
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+GENERAL SERVICES (link back to homepage):
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+- [Service Name] → /[url]
+
+=======================================================
+
+NAVIGATION STRUCTURE
+
+=======================================================
+
+MAIN NAV:
+
+- Home → [homepage url]
+
+- Services → /services
+
+- About Us → /about
+
+- Contact → /contact
+
+FOOTER LINKS:
+
+- [List]
+
+=======================================================
+
+INTERNAL LINKING MAP
+
+=======================================================
+
+HOMEPAGE links to:
+
+- [List all pages homepage links to]
+
+SECONDARY CATEGORY 1 links to:
+
+- [List child pages]
+
+- Back to: Homepage
+
+SECONDARY CATEGORY 2 links to:
+
+- [List child pages]
+
+- Back to: Homepage
+
+CORE SERVICE 1 links to:
+
+- [List child pages]
+
+- Back to: Homepage
+
+CORE SERVICE 2 links to:
+
+- [List child pages]
+
+- Back to: Homepage
+
+CHILD PAGES link back to:
+
+- Services under [Category 1] → link to [Category 1 URL]
+
+- Services under [Category 2] → link to [Category 2 URL]
+
+- Services under [Core Service 1] → link to [Core Service 1 URL]
+
+- Services under [Core Service 2] → link to [Core Service 2 URL]
+
+- General Services → link to Homepage
+
+=======================================================
+
+PAGE COUNT SUMMARY
+
+=======================================================
+
+- Homepage: 1
+
+- Main Pages (Services, About, Contact): 3
+
+- Secondary Category Pages: [X]
+
+- Core Service Pages: [X]
+
+- Child Service Pages: [X]
+
+- TOTAL PAGES: [X]
+
+---
+
+Now analyze my business information and create the complete site architecture.

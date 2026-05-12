@@ -1,0 +1,149 @@
+You are a senior web developer with 15+ years of experience building SEO-optimized local business websites. Your task: build the complete site structure and design system. This prompt is ONLY about architecture — we will add content in subsequent prompts.
+
+=======================================================
+
+SITE ARCHITECTURE — PASTE FROM PROMPT 0
+
+=======================================================
+
+[PASTE YOUR COMPLETE SITE ARCHITECTURE FROM PROMPT 0 HERE]
+
+=======================================================
+
+DESIGN VARIABLES
+
+=======================================================
+
+COLOR SCHEME:
+
+- Primary: #1E3A5F (dark blue)
+
+- Accent: #3B82F6 (bright blue)
+
+- Background: #FFFFFF (white)
+
+- Text: #1F2937 (dark gray)
+
+(Adjust colors above to match your brand)
+
+=======================================================
+
+IMPLEMENTATION INSTRUCTIONS
+
+=======================================================
+
+1. Branding & Design
+
+- Use BUSINESS NAME from site architecture
+
+- Use COLOR SCHEME defined above
+
+- Typography: Clean, trustworthy, appropriate for the industry
+
+- Design feel: Professional but approachable local business — not corporate
+
+2. Header
+
+- Top bar: "Serving [CITY], [STATE] & Surrounding Areas" on left, [PHONE NUMBER] on right (click-to-call)
+
+- Main header: Logo on left, navigation center, phone button on right styled as primary CTA
+
+- Sticky header on scroll
+
+3. Navigation
+
+Use NAVIGATION STRUCTURE from site architecture:
+
+- Simple and clean — no dropdowns
+
+- All nav items link to defined URLs
+
+4. Footer
+
+- Phone number prominent (click-to-call)
+
+- Address: [CITY], [STATE] [ZIP CODE]
+
+- Email: [EMAIL]
+
+- Service areas: List all SERVICE AREAS from architecture
+
+- Quick links: Home, Services, About Us, Contact
+
+- Social icons placeholder (Facebook, Google)
+
+- © 2025 [BUSINESS NAME]
+
+5. Mobile Elements
+
+- Hamburger menu for navigation
+
+- Floating "Call Now" button (bottom right, always visible)
+
+- Click-to-call on all phone numbers
+
+- Thumb-friendly button sizes
+
+6. Page Creation
+
+Create ALL pages listed in the site architecture:
+
+- Homepage (URL from architecture)
+
+- Main Pages (Services, About, Contact)
+
+- All Secondary Category Pages
+
+- All Core Service Pages
+
+- All Child Service Pages listed under each category/core service
+
+- All General Service Pages
+
+7. Placeholder Content
+
+Each page should display ONLY:
+
+- The page title (e.g., "[Service Name] [City] [State Abbrev]")
+
+- Text: "Content coming soon"
+
+- The header and footer
+
+Do NOT write actual content for any page. We will build that out in subsequent prompts.
+
+8. Services Page Structure
+
+On the /services page, display a complete list of links to ALL service pages, organized by category as defined in SERVICE HIERARCHY. This allows verification that all pages were created.
+
+9. Scroll Behavior (Critical)
+
+When navigating between pages, the browser must scroll to the top of the new page. Implement a ScrollToTop component that resets scroll position to (0, 0) on every route change. Users must always land at the top of each page.
+
+10. Technical Requirements
+
+- Mobile-first responsive design
+
+- Fast loading
+
+- Clean semantic HTML5
+
+- All navigation links working between pages
+
+- Consistent header/footer across all pages
+
+- EVERY page listed in the architecture must be created as an actual route
+
+11. Verification
+
+After creating the site, confirm:
+
+- Total number of pages created matches PAGE COUNT SUMMARY from architecture
+
+- All routes are accessible
+
+- Navigation works correctly
+
+- ScrollToTop is functioning
+
+Generate the complete site structure with all pages created and navigation working. Do not add content beyond the placeholder text specified above.

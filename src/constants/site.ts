@@ -25,8 +25,29 @@ export const AREA_TAGLINE =
 export const META_AREA_PHRASE =
   "Edinburgh, Midlothian, East Lothian and West Lothian";
 
+/**
+ * Align visible H1/title meta with Google Business Profile primary category wording.
+ * Update if your GBP primary category label changes.
+ */
+export const GBP_PRIMARY_CATEGORY_LABEL = "Exterior cleaning service";
+
+/** Region shorthand for body copy (hero sublines, FAQs, etc.). */
+export const SERVICE_REGION_SHORT = "Edinburgh & the Lothians";
+
+/** Used in `<title>` tags and the homepage H1 highlight — short, no "& the Lothians". */
+export const SITE_TITLE_AREA = "Edinburgh";
+
 /** Formspree form URL (quote / contact submissions). */
 export const FORMSPREE_ENDPOINT = "https://formspree.io/f/mlgzzlab";
+
+/**
+ * Public enquiries email for Contact page mailto. Leave empty to hide the email row.
+ */
+export const CONTACT_EMAIL = "";
+
+/** Typical response time note shown near the contact form. */
+export const CONTACT_EMAIL_RESPONSE_NOTE =
+  "We reply within 24 hours during the working week.";
 
 /** Google Business Profile link (reviews / profile). */
 export const GOOGLE_REVIEWS_URL = "https://share.google/WHM6HVMqy1SvwnkkX";

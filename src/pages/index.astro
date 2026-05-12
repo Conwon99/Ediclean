@@ -10,19 +10,24 @@ import { ServiceAreasSection } from '../sections/ServiceAreasSection';
 import { HomeFAQ } from '../sections/FAQSection/HomeFAQ';
 import ReviewsSection from '../sections/ReviewsSection.astro';
 import { QuoteSection } from '../sections/QuoteSection';
+import { FinalPhoneCta } from '../sections/FinalPhoneCta';
 import { FooterSection } from '../sections/FooterSection';
-import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
+import { getHomeDescription, getHomeTitle } from '../data/seo';
+import { getHomeFaqPageJsonLd } from '../data/homeFaq';
 ---
 
 <Layout 
-  title={`${BUSINESS_NAME} - Professional Exterior Cleaning | ${META_AREA_PHRASE}`}
-  description={`Expert roof cleaning, render softwashing, driveway, gutter, PVC and window cleaning across ${META_AREA_PHRASE}. Get a free quote for your property.`}
+  title={getHomeTitle()}
+  description={getHomeDescription()}
+  extraJsonLd={[getHomeFaqPageJsonLd()]}
 >
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />
     <main class="pt-0">
       <Hero client:load />
       <CoreValuesSection client:load />
+      <ReviewsSection />
+      <QuoteSection client:load showTerms={false} />
       <ServicePageServices client:load />
       <section class="bg-white box-border py-[60px] md:py-[100px]">
         <div class="box-border max-w-[1204px] mx-auto px-5 md:px-8">
@@ -52,8 +57,7 @@ import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
       <ProcessSection client:load />
       <HomeFAQ client:load />
       <ServiceAreasSection client:load />
-      <ReviewsSection />
-      <QuoteSection client:load showTerms={false} />
+      <FinalPhoneCta client:load />
       <FooterSection client:load />
     </main>
   </div>

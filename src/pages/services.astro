@@ -5,12 +5,12 @@ import { ServicePageHero } from '../sections/ServicePageHero';
 import { ServicePageServices } from '../sections/ServicePageServices';
 import { QuoteSection } from '../sections/QuoteSection';
 import { FooterSection } from '../sections/FooterSection';
-import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
+import { BUSINESS_NAME, GBP_PRIMARY_CATEGORY_LABEL, SERVICE_REGION_SHORT, SITE_TITLE_AREA } from '../constants/site';
 ---
 
 <Layout 
-  title={`Our Services - ${BUSINESS_NAME} | Roof, Render, Driveway & More`}
-  description={`Roof steam cleaning, render softwashing, driveway, gutter, PVC and window cleaning across ${META_AREA_PHRASE}. Professional exterior cleaning for your property.`}
+  title={`${GBP_PRIMARY_CATEGORY_LABEL} — Full List | ${SITE_TITLE_AREA} | ${BUSINESS_NAME}`}
+  description={`Complete ${GBP_PRIMARY_CATEGORY_LABEL} list for ${SERVICE_REGION_SHORT}: roof steam cleaning, render softwashing, driveways, gutters, PVC and windows. Free quotes.`}
 >
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />

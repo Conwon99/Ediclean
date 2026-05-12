@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Navbar } from "../sections/Navbar";
+import { ServiceHubPageContent } from "../sections/ServiceHubPage";
+import { FooterSection } from "../sections/FooterSection";
+import { exteriorFacadesGroundHub } from "../data/serviceHubPages";
+import { SITE_URL } from "../constants/site";
+
+const hub = exteriorFacadesGroundHub;
+const canonical = `${SITE_URL}${hub.path}`;
+---
+
+<Layout title={hub.metaTitle} description={hub.metaDescription} canonical={canonical}>
+  <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
+    <Navbar client:load />
+    <main class="pt-0">
+      <ServiceHubPageContent client:load hub={hub} />
+      <FooterSection client:load />
+    </main>
+  </div>
+</Layout>

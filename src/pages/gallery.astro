@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import { Navbar } from '../sections/Navbar';
 import { FooterSection } from '../sections/FooterSection';
-import { BUSINESS_NAME, META_AREA_PHRASE } from '../constants/site';
+import { BUSINESS_NAME } from '../constants/site';
 
 const galleryImages = [
   "gal1.jpg",
@@ -23,8 +23,8 @@ const galleryImages = [
 ---
 
 <Layout 
-  title={`Gallery - ${BUSINESS_NAME} | Our Exterior Cleaning Work`}
-  description={`View our exterior cleaning gallery. Roof, render, driveway and property cleaning across ${META_AREA_PHRASE}.`}
+  title={`Exterior Cleaning Gallery in Edinburgh | ${BUSINESS_NAME}`}
+  description="View EdiClean exterior cleaning results for roofs, render, driveways, PVC, windows and property cleaning around Edinburgh."
 >
   <div class="min-h-screen bg-neutral-100 font-figtree text-black text-sm leading-5 antialiased">
     <Navbar client:load />
