@@ -3,6 +3,10 @@ import { BUSINESS_NAME, GOOGLE_REVIEWS_URL, META_AREA_PHRASE } from "@/constants
 
 type ReviewCard = {
   id: string;
+  /** Illustrative display names — not tied to real reviewers. */
+  displayName: string;
+  initial: string;
+  initialBg: string;
   badge: string;
   time: string;
   text: string;
@@ -11,38 +15,40 @@ type ReviewCard = {
 const REVIEWS: ReviewCard[] = [
   {
     id: "1",
+    displayName: "Moira C.",
+    initial: "M",
+    initialBg: "bg-violet-500",
     badge: "Google review · 5 stars",
     time: "Recently",
     text: `First-class exterior cleaning from first contact through to completion. Clear estimate, careful work on the roof and gutters — both look immaculate. The whole property feels fresher. Would use ${BUSINESS_NAME} again without hesitation.`,
   },
   {
     id: "2",
+    displayName: "Greg F.",
+    initial: "G",
+    initialBg: "bg-amber-500",
     badge: "Google review · 5 stars",
     time: "Recently",
     text: `Professional roof and gutter cleaning: on time, thorough, and tidy. Everything outside looks noticeably cleaner across ${META_AREA_PHRASE}. Strongly recommend for anyone needing exterior washing or roofline work.`,
   },
   {
     id: "3",
+    displayName: "Alison W.",
+    initial: "A",
+    initialBg: "bg-emerald-600",
     badge: "Google review · 5 stars",
     time: "Recently",
     text: `Consistent, high-quality exterior cleaning — driveway, windows and fascias always come up brilliantly after each visit. Attention to detail on render and PVC makes a real difference. Ten out of ten for keeping the outside of the property in top shape.`,
   },
 ];
 
-function ReviewAvatar() {
+function ReviewAvatar({ initial, initialBg }: Pick<ReviewCard, "initial" | "initialBg">) {
   return (
     <div
-      className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-neutral-600 text-white"
+      className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-full ${initialBg} text-lg font-bold text-white`}
       aria-hidden
     >
-      <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-        />
-      </svg>
+      {initial}
     </div>
   );
 }
@@ -113,9 +119,9 @@ export function StaticReviews() {
                 className="shrink-0 w-[min(100%,320px)] md:w-[360px] snap-center rounded-xl bg-neutral-700/80 border border-neutral-600 p-6 flex flex-col"
               >
                 <div className="flex items-start gap-3 mb-4">
-                  <ReviewAvatar />
+                  <ReviewAvatar initial={review.initial} initialBg={review.initialBg} />
                   <div className="min-w-0">
-                    <p className="font-heading font-bold text-white uppercase text-base">Verified customer</p>
+                    <p className="font-heading font-bold text-white uppercase text-base">{review.displayName}</p>
                     <p className="text-neutral-400 text-sm">{review.badge}</p>
                     <p className="text-neutral-500 text-sm">{review.time}</p>
                   </div>
