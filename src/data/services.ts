@@ -23,7 +23,7 @@ export const services: Service[] = [
     slug: "render-softwashing",
     title: "Render Softwashing",
     shortDescription:
-      "Render softwashing specialists providing professional render cleaning and softwash render cleaning. Expert stain removal from render surfaces without damage.",
+      "We provide render cleaning and softwashing services across Edinburgh & the Lothians to give your wall exteriors a brand new finish without the damage of pressure washing. Get your free quote today",
     imageUrl: "/portfolio/render-softwash.jpg",
   },
   {
