@@ -54,4 +54,4 @@ export const GOOGLE_REVIEWS_URL = "https://share.google/WHM6HVMqy1SvwnkkX";
 
 /** Facebook profile (footer + schema sameAs). */
 export const FACEBOOK_PROFILE_URL =
-  "https://www.facebook.com/profile.php?id=61589064227371&rdid=wMuBW9u13Y8FS2eK";
+  "https://www.facebook.com/profile.php?id=61593170122023";
