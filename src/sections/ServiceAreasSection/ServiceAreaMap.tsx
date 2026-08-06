@@ -44,6 +44,7 @@ export function ServiceAreaMap() {
       }).addTo(map);
 
       map.fitBounds(polygon.getBounds(), { padding: [24, 24] });
+      if (map.getZoom() < 9) map.setZoom(9);
       mapRef.current = map;
     });
 

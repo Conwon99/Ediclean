@@ -23,7 +23,7 @@ export const services: Service[] = [
     slug: "render-softwashing",
     title: "Render Softwashing",
     shortDescription:
-      "Render softwashing specialists providing professional render cleaning and softwash render cleaning. Expert stain removal from render surfaces without damage.",
+      `With 21 years of experience, we provide render cleaning and softwashing services across ${META_AREA_PHRASE} to give your wall exteriors a refreshed finish without the damage risk of pressure washing. Get your free quote today.`,
     imageUrl: "/portfolio/render-softwash.jpg",
   },
   {
