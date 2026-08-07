@@ -9,13 +9,13 @@ import {
 
 const SERVICE_META: Record<string, string> = {
   "roof-steam-cleaning":
-    "Safe roof steam cleaning in Edinburgh and the Lothians. Moss and algae removal without high pressure. Get a free EdiClean quote.",
+    "Safe roof steam cleaning and roof soft washing in Edinburgh and the Lothians. Moss and algae removal without high pressure. Get a free EdiClean quote.",
   "render-softwashing":
-    "Render softwashing in Edinburgh and the Lothians. Remove algae, staining and dirt from render without harsh pressure. Free quote.",
+    "Render, roughcast and pebbledash softwashing in Edinburgh and the Lothians. Remove algae, staining and dirt without harsh pressure. Free quote.",
   "driveway-cleaning":
     "Driveway cleaning in Edinburgh and the Lothians. Pressure washing for block paving, concrete, patios and paths. Free quote.",
   "gutter-cleaning":
-    "Gutter cleaning in Edinburgh and the Lothians. Clear leaves, debris and blockages to keep rainwater flowing. Free quote.",
+    "Gutter cleaning in Edinburgh and the Lothians. Clear leaves, debris and blockages, plus fascia and soffit cleaning, to keep rainwater flowing. Free quote.",
   "pvc-white-cleaning":
     "PVC white cleaning in Edinburgh and the Lothians. Fascias, soffits and gutters cleaned safely for a brighter finish. Free quote.",
   "window-cleaning":

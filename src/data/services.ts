@@ -16,14 +16,14 @@ export const services: Service[] = [
     slug: "roof-steam-cleaning",
     title: "Roof Steam Cleaning",
     shortDescription:
-      `Safe roof steam cleaning for homes and businesses across ${META_AREA_PHRASE}. Professional moss removal from roof and algae removal from roof tiles. Roof cleaning and moss treatment for lasting results.`,
+      `Safe roof steam cleaning and roof soft washing for homes and businesses across ${META_AREA_PHRASE}. Professional moss removal from roof and algae removal from roof tiles. Roof cleaning and moss treatment for lasting results.`,
     imageUrl: "/portfolio/roofclean1.jpg",
   },
   {
     slug: "render-softwashing",
     title: "Render Softwashing",
     shortDescription:
-      "We provide render cleaning and softwashing services across Edinburgh & the Lothians to give your wall exteriors a brand new finish without the damage of pressure washing. Get your free quote today",
+      "We provide render, roughcast and pebbledash cleaning and softwashing services across Edinburgh & the Lothians to give your wall exteriors a brand new finish without the damage of pressure washing. Get your free quote today",
     imageUrl: "/portfolio/render-softwash.jpg",
   },
   {
@@ -37,7 +37,7 @@ export const services: Service[] = [
     slug: "gutter-cleaning",
     title: "Gutter Cleaning",
     shortDescription:
-      `Gutter cleaning and gutter maintenance across ${META_AREA_PHRASE}. Expert gutter clearing service and gutter inspection and cleaning.`,
+      `Gutter cleaning and gutter maintenance across ${META_AREA_PHRASE}. Expert gutter clearing service, fascia and soffit cleaning, and gutter inspection and cleaning.`,
     imageUrl: "/portfolio/gutter-cleaning.webp",
   },
   {
