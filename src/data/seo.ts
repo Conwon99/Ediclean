@@ -20,6 +20,10 @@ const SERVICE_META: Record<string, string> = {
     "PVC white cleaning in Edinburgh and the Lothians. Fascias, soffits and gutters cleaned safely for a brighter finish. Free quote.",
   "window-cleaning":
     "Window cleaning in Edinburgh and the Lothians. Reliable residential and commercial window washing for clear glass. Free quote.",
+  "moss-removal":
+    "Moss and algae removal in Edinburgh and the Lothians. Safe, low-pressure clearing for roofs, patios and driveways. Free EdiClean quote.",
+  "patio-cleaning":
+    "Patio cleaning in Edinburgh and the Lothians. Pressure washing for slabs, monoblock and decking that lifts algae and moss. Free quote.",
 };
 
 export function getHomeTitle(): string {

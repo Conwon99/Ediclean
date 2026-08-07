@@ -54,6 +54,20 @@ export const services: Service[] = [
       "Residential and commercial window cleaning. Professional window washing for sparkling results every time.",
     imageUrl: "/portfolio/window-cleaning.jpg",
   },
+  {
+    slug: "moss-removal",
+    title: "Moss & Algae Removal",
+    shortDescription:
+      `Specialist moss and algae removal for roofs, patios and driveways across ${META_AREA_PHRASE}. We clear moss safely from slate, tile and concrete without damaging the surface, and can apply a treatment to slow regrowth.`,
+    imageUrl: "/portfolio/roofclean1.jpg",
+  },
+  {
+    slug: "patio-cleaning",
+    title: "Patio Cleaning",
+    shortDescription:
+      `Patio cleaning and pressure washing for slabs, monoblock and decking. We lift algae, moss and grime from patios across ${META_AREA_PHRASE}, leaving outdoor spaces safe and ready to use.`,
+    imageUrl: "/portfolio/pressure-washing.jpg",
+  },
 ];
 
 export const serviceSlugs = services.map((s) => s.slug);
