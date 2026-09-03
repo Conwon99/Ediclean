@@ -20,7 +20,7 @@ export const GalleryGrid = () => {
     },
     {
       src: "/portfolio/gal5.jpg",
-      alt: "Roof steam cleaning and moss removal — before and after",
+      alt: "Roof cleaning and moss removal — before and after",
     },
     {
       src: "/portfolio/gal6.jpg",

@@ -9,7 +9,7 @@ import {
 
 const SERVICE_META: Record<string, string> = {
   "roof-steam-cleaning":
-    "Safe roof steam cleaning and roof soft washing in Edinburgh and the Lothians. Moss and algae removal without high pressure. Get a free EdiClean quote.",
+    "Safe roof cleaning and roof soft washing in Edinburgh and the Lothians. Moss and algae removal without high pressure. Get a free EdiClean quote.",
   "render-softwashing":
     "Render, roughcast and pebbledash softwashing in Edinburgh and the Lothians. Remove algae, staining and dirt without harsh pressure. Free quote.",
   "driveway-cleaning":
@@ -31,7 +31,7 @@ export function getHomeTitle(): string {
 }
 
 export function getHomeDescription(): string {
-  return `Professional exterior cleaning across ${SERVICE_REGION_SHORT}. Roof steam cleaning, render softwashing, driveways, gutters, PVC and windows. Fully insured. Free quotes.`;
+  return `Professional exterior cleaning across ${SERVICE_REGION_SHORT}. Roof cleaning, render softwashing, driveways, gutters, PVC and windows. Fully insured. Free quotes.`;
 }
 
 export function getServiceTitle(service: Service): string {

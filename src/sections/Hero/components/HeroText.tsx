@@ -27,7 +27,7 @@ export const HeroText = () => {
           </span>
         </h1>
         <p className="text-base box-border caret-transparent blur-0 leading-[26px] md:text-lg font-figtree">
-          Roof steam cleaning, render softwashing, driveway, gutter, PVC and window cleaning — safe, professional service across {META_AREA_PHRASE}.
+          Roof cleaning, render softwashing, driveway, gutter, PVC and window cleaning — safe, professional service across {META_AREA_PHRASE}.
         </p>
       </div>
 

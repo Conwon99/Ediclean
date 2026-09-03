@@ -14,9 +14,9 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "roof-steam-cleaning",
-    title: "Roof Steam Cleaning",
+    title: "Roof Cleaning",
     shortDescription:
-      `Safe roof steam cleaning and roof soft washing for homes and businesses across ${META_AREA_PHRASE}. Professional moss removal from roof and algae removal from roof tiles. Roof cleaning and moss treatment for lasting results.`,
+      `Safe roof cleaning and roof soft washing for homes and businesses across ${META_AREA_PHRASE}. Professional moss removal from roof and algae removal from roof tiles. Roof cleaning and moss treatment for lasting results.`,
     imageUrl: "/portfolio/roofclean1.jpg",
   },
   {

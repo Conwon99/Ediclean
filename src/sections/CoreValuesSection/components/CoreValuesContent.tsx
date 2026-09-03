@@ -15,7 +15,7 @@ export const CoreValuesContent = () => {
       </div>
       <div className="text-neutral-700 box-border caret-transparent">
         <p className="text-[15px] box-border caret-transparent leading-6 md:text-base">
-          At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}. From roof steam cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning—we bring safe, effective service to your property. Fully insured and with a focus on quality and customer satisfaction.
+          At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}. From roof cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning—we bring safe, effective service to your property. Fully insured and with a focus on quality and customer satisfaction.
         </p>
         <div className="flex flex-wrap gap-x-6 gap-y-3 mt-5">
           <div className="flex items-center gap-2">

@@ -40,10 +40,10 @@ export const packagesData: PackageData[] = [
   {
     id: "roof-steam-full",
     category: "roof-cleaning",
-    title: "ROOF STEAM CLEANING",
+    title: "ROOF CLEANING",
     tagline: "Full roof clean",
     summary:
-      `Safe roof steam cleaning with moss and algae removal from roof tiles. Professional treatment for lasting results and improved curb appeal. Suitable for all roof types across ${META_AREA_PHRASE}.`,
+      `Safe roof cleaning with moss and algae removal from roof tiles. Professional treatment for lasting results and improved curb appeal. Suitable for all roof types across ${META_AREA_PHRASE}.`,
     sections: [
       {
         heading: "SERVICE INCLUDES",
@@ -101,7 +101,7 @@ export const packagesData: PackageData[] = [
     extras: {
       heading: "EXTRAS",
       items: [
-        "Roof steam cleaning (add-on)",
+        "Roof cleaning (add-on)",
         "Render softwashing (add-on)",
       ],
     },

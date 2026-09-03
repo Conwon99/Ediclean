@@ -13,7 +13,7 @@ export const ProcessSteps = () => {
         imageUrl="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop"
         imageAlt="We come to you"
         title="02. We come to you."
-        description="We bring our equipment and expertise to your property. Roof steam cleaning, render softwashing, driveway, gutter, PVC and window cleaning—all carried out at your home or business with minimal disruption."
+        description="We bring our equipment and expertise to your property. Roof cleaning, render softwashing, driveway, gutter, PVC and window cleaning—all carried out at your home or business with minimal disruption."
       />
       <ProcessCard
         imageUrl="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=600&fit=crop"
