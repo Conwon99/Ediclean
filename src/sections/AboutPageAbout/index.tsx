@@ -16,7 +16,7 @@ export const AboutPageAbout = () => {
             <div className="box-border caret-transparent gap-x-[18px] flex blur-0 flex-col max-w-[488px] gap-y-[18px] md:gap-x-5 md:gap-y-5">
               <div className="text-neutral-700 box-border caret-transparent space-y-4">
                 <div className="text-[15px] box-border caret-transparent leading-6 md:text-base">
-                  At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}. From roof steam cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning, we bring safe, effective service to your property. As a local business we pride ourselves on quality, reliability and customer satisfaction.
+                  At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}. From roof cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning, we bring safe, effective service to your property. As a local business we pride ourselves on quality, reliability and customer satisfaction.
                 </div>
                 <div className="text-[15px] box-border caret-transparent leading-6 md:text-base">
                   Whether you need a one-off roof clean or regular gutter and window maintenance, we treat every job with the same care. We come to you with the right equipment and methods for each surface, so your home or business looks its best with minimal disruption.

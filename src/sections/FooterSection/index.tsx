@@ -17,7 +17,7 @@ export const FooterSection = ({ mapLocation }: FooterSectionProps) => {
               <Logo />
               <div className="box-border caret-transparent mt-6">
                 <div className="text-[15px] box-border caret-transparent leading-6 text-white/80 md:text-base">
-                  Professional exterior cleaning across {META_AREA_PHRASE}. Roof steam cleaning, render softwashing, driveway, gutter, PVC and window cleaning. We bring safe, effective service to your property.
+                  Professional exterior cleaning across {META_AREA_PHRASE}. Roof cleaning, render softwashing, driveway, gutter, PVC and window cleaning. We bring safe, effective service to your property.
                 </div>
               </div>
             </div>

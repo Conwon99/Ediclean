@@ -10,7 +10,7 @@ export const homeFaqItems: HomeFaqItem[] = [
   {
     question: "What services do you offer?",
     answer:
-      "We offer roof steam cleaning, render softwashing, driveway cleaning, gutter cleaning, PVC cleaning, and window cleaning. All our exterior cleaning is done at your property—we're fully mobile.",
+      "We offer roof cleaning, render softwashing, driveway cleaning, gutter cleaning, PVC cleaning, and window cleaning. All our exterior cleaning is done at your property—we're fully mobile.",
   },
   {
     question: "How do I get a quote?",
@@ -20,7 +20,7 @@ export const homeFaqItems: HomeFaqItem[] = [
   {
     question: "Do you remove moss and algae from roofs?",
     answer:
-      "Yes. Our roof steam cleaning safely removes moss, algae, and dirt from tiles and slates. We use methods that protect your roof and extend its life.",
+      "Yes. Our roof cleaning safely removes moss, algae, and dirt from tiles and slates. We use methods that protect your roof and extend its life.",
   },
   {
     question: "Do you bring your own equipment and water?",

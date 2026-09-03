@@ -191,7 +191,7 @@ export function getLocationHeroParagraphs(location: Location): string[] {
     : "";
 
   return [
-    `Expert exterior cleaning in ${location.name}: roof steam cleaning, render softwashing, driveway cleaning, gutter cleaning, PVC cleaning and window cleaning.${nearby}`,
+    `Expert exterior cleaning in ${location.name}: roof cleaning, render softwashing, driveway cleaning, gutter cleaning, PVC cleaning and window cleaning.${nearby}`,
   ];
 }
 

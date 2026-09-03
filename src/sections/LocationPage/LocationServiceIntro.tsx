@@ -40,7 +40,7 @@ export const LocationServiceIntro = ({ location }: LocationServiceIntroProps) =>
             </div>
             <div className="text-neutral-700 box-border caret-transparent">
               <p className="text-[15px] box-border caret-transparent leading-6 md:text-base">
-                At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}—including {name}{neighborhoods.length ? ` and nearby areas` : ""}. From roof steam cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning, we bring safe, effective service to your property. Fully insured and with a focus on quality and customer satisfaction.
+                At {BUSINESS_NAME} we deliver professional exterior cleaning across {META_AREA_PHRASE}—including {name}{neighborhoods.length ? ` and nearby areas` : ""}. From roof cleaning and moss removal to render softwashing, driveway, gutter, PVC and window cleaning, we bring safe, effective service to your property. Fully insured and with a focus on quality and customer satisfaction.
               </p>
               <div className="mt-4 space-y-4">
                 {chooseUsParagraphs.map((paragraph) => (

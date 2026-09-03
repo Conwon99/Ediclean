@@ -18,14 +18,14 @@ export type ServiceDetailContent = {
 export const serviceDetails: Record<string, ServiceDetailContent> = {
   "roof-steam-cleaning": {
     heroDescription:
-      `Professional roof steam cleaning and roof soft washing with safe moss and algae removal from roof tiles. Effective, environmentally friendly treatment that protects your roof and improves curb appeal across ${META_AREA_PHRASE}.`,
+      `Professional roof cleaning and roof soft washing with safe moss and algae removal from roof tiles. Effective, environmentally friendly treatment that protects your roof and improves curb appeal across ${META_AREA_PHRASE}.`,
     whyChoose: {
-      title: "Why Choose Our Roof Steam Cleaning?",
+      title: "Why Choose Our Roof Cleaning?",
       points: [
         {
           title: "Safe & Effective",
           description:
-            "Our safe roof steam cleaning provides moss removal from roof and algae removal from roof tiles without damaging tiles or the environment. Professional roof cleaning and moss treatment for lasting protection.",
+            "Our safe roof cleaning provides moss removal from roof and algae removal from roof tiles without damaging tiles or the environment. Professional roof cleaning and moss treatment for lasting protection.",
         },
         {
           title: "Property Protection",
@@ -40,14 +40,14 @@ export const serviceDetails: Record<string, ServiceDetailContent> = {
       ],
     },
     processSteps: [
-      { title: "Book & get a quote", description: "Contact us to schedule your roof steam clean. We'll provide a free quote and a convenient date." },
+      { title: "Book & get a quote", description: "Contact us to schedule your roof clean. We'll provide a free quote and a convenient date." },
       { title: "We come to you", description: "We bring our equipment to your property. Safe steam cleaning with no high pressure that could damage tiles." },
       { title: "Payment & completion", description: "Settle on completion. We'll leave your roof looking clean and protected." },
     ],
     faqs: [
       { question: "How often should I have my roof cleaned?", answer: "Every 2–3 years is typical for moss and algae, depending on exposure and tree cover. We can advise after an inspection." },
-      { question: "Is roof steam cleaning safe for all roof types?", answer: "Yes. We use low-pressure steam and appropriate treatments suitable for tiles, slates and most roof surfaces." },
-      { question: "What's the difference between roof steam cleaning and roof soft washing?", answer: "They're closely related — both are low-pressure alternatives to jet washing. We use steam and soft-wash treatments together depending on the roof type, so you get the same damage-free result either way." },
+      { question: "Is roof cleaning safe for all roof types?", answer: "Yes. We use low-pressure steam and appropriate treatments suitable for tiles, slates and most roof surfaces." },
+      { question: "What's the difference between roof cleaning and roof soft washing?", answer: "They're closely related — both are low-pressure alternatives to jet washing. We use steam and soft-wash treatments together depending on the roof type, so you get the same damage-free result either way." },
       { question: "Do you treat the gutters too?", answer: "We can clear and clean gutters as part of the service or as a separate job. Ask for a quote." },
     ],
   },
@@ -78,7 +78,7 @@ export const serviceDetails: Record<string, ServiceDetailContent> = {
       { question: "Do I need to be home during the clean?", answer: "No. As long as we can access the exterior of your property and a water supply, you don't need to be present." },
       { question: "What areas do you cover?", answer: `We cover ${META_AREA_PHRASE}.` },
       { question: "Do you work with both homeowners and businesses?", answer: "Yes. We carry out render softwashing for homeowners as well as commercial properties, at your home or business." },
-      { question: "What other services do you offer?", answer: "Alongside render softwashing, we also provide roof steam cleaning, driveway cleaning, gutter cleaning, PVC white cleaning and window cleaning." },
+      { question: "What other services do you offer?", answer: "Alongside render softwashing, we also provide roof cleaning, driveway cleaning, gutter cleaning, PVC white cleaning and window cleaning." },
     ],
   },
   "driveway-cleaning": {

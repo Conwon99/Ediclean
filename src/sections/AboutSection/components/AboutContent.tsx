@@ -27,7 +27,7 @@ export const AboutContent = () => {
             is a mobile exterior cleaning company covering {META_AREA_PHRASE}.
           </div>
           <div className="text-[15px] box-border caret-transparent leading-6 md:text-base">
-            We specialise in roof steam cleaning, moss removal, render softwashing, driveway cleaning, gutter clearing, PVC fascia cleaning and window cleaning — carried out at your home or business with minimal disruption.
+            We specialise in roof cleaning, moss removal, render softwashing, driveway cleaning, gutter clearing, PVC fascia cleaning and window cleaning — carried out at your home or business with minimal disruption.
           </div>
           <div className="text-[15px] box-border caret-transparent leading-6 md:text-base">
             Based around Morningside Road in Edinburgh, we’re fully insured and focused on safe methods: low-pressure treatments where they matter, and clear communication from quote to completion.

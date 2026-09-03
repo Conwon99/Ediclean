@@ -14,7 +14,7 @@ export const ServicePageAbout = () => {
                 </span>{" "}
                 we deliver professional exterior cleaning with clear pricing and careful technique—
                 <span className="text-neutral-400 text-3xl box-border caret-transparent leading-[35px] md:text-[52px] md:leading-[62px]">
-                  from roof steam cleaning and render softwashing to gutters, PVC, windows and drives.
+                  from roof cleaning and render softwashing to gutters, PVC, windows and drives.
                 </span>
               </div>
             </div>
